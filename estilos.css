@@ -29,8 +29,10 @@
 }
 
 .contenedor-qualia-absolute {
-    padding: 0px 0px 0px 168px;
+    padding: 0px 0px 0px 168px;    
 }
+
+
 
 .contenedor-qualia-blog{
     padding: 40px 0px 40px 80px;
@@ -511,10 +513,6 @@ tipos-seguro-headline-seguro:hover:after {
 
 .accentPrimary {
     text-align: left;
-}
-
-.seguros-background-mobile {
-    display: none;
 }
 
 

@@ -97,8 +97,8 @@
     }
 
     .seguros-number {
-        color: #2E2E2E;
-        padding-bottom: 0em;
+        color: white;
+        padding-bottom: 1.5em;
     }
 
 
@@ -217,13 +217,34 @@
     .seguros-background-mobile{
         display: block;
         width: 100%;
+        height: 100%;
+        background-image: url('./img/menupasosmobile.svg');
+        background-size: cover;
+        height: 700px;
+        background-repeat: no-repeat;
+        z-index: 10;
+
     }
     
     .seguros-title{
-        padding: 1rem 0rem;
+        padding: 1rem 0rem 1.5rem 0rem;
         font-size: 1.9em !important;
         text-align: center !important;
+
     }
+
+    .seguros-pasos {
+        padding: 40px 100px;
+    }
+
+
+    .right {
+        text-align: right;
+    }
+    .left {
+        text-align: left;
+    }
+
     #seguros {
         height: auto;
     }
