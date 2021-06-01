@@ -19,6 +19,24 @@
     background-color:#FFFFFF;
 }
 
+/* Container Qualia */
+
+.contenedor-qualia{
+    padding: 40px 168px;
+}
+.contenedor-qualia-left{
+    padding: 40px 0px 40px 168px;
+}
+
+.contenedor-qualia-absolute {
+    padding: 0px 0px 0px 168px;
+}
+
+.contenedor-qualia-blog{
+    padding: 40px 0px 40px 80px;
+}
+
+
 /* Titulos */
 
 h2 {
@@ -60,54 +78,7 @@ a {
     background-repeat: no-repeat;
 }
 
-
-
-/* Hero Quienes Somos */
-
-.qualia-black-quienes-somos{
-    background-color:#2E2E2E;
-  /*  background-image: url('./img/fondo-vector-consideration.png');
-    background-size: cover; 
-    background-repeat: no-repeat; */
-    height: 400px;
-
-}
-
-
-.text-cyan {
-    color: #0096A9 !important;
-}
-
-
-/* Alert */
-
-#alert {
-    display: flex;
-}
-
-.alertContent {
-    display: flex;
-    background-color: #0096A9;
-    width: 100%;
-    justify-content: center;
-    padding: 2rem 0;
-    color: white;
-}
-
-.alertContent h5 {
-    font-weight: 300;
-    font-size: 1.1em;
-}
-
-#closeAlert {
-    position: absolute;
-    top: 20px;
-    left: 95%;
-    font-weight: 700;
-    cursor: pointer;
-    font-size: 30px;
-    font-weight: 500;
-}
+/* Header */
 
 /* Nav */
 
@@ -140,18 +111,6 @@ nav.navGrid {
     justify-content: flex-end;
 }
 
-.seguros-background-mobile {
-    display: none;
-}
-@media (min-width: 1024px) {
-   /* .nav-mobile-hamburguer {
-        display: none !important;
-
-    } */
-}
-
-
-
 ul {        
     display: flex;
     align-items: center;
@@ -171,32 +130,93 @@ ul li a {
 
 
 
+/* Alert */
+
+#alert {
+    display: flex;
+}
+
+.alertContent {
+    display: flex;
+    background-color: #0096A9;
+    width: 100%;
+    justify-content: center;
+    padding: 2rem 0;
+    color: white;
+}
+
+.alertContent h5 {
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+#closeAlert {
+    position: absolute;
+    top: 20px;
+    left: 95%;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+}
+
 #alertContent{
     transition: height 2s ease-in-out 0.2s;
 }
 
-/* Header y Video Section */
 
+/* footer */
 
-.contenedor-qualia{
-    padding: 40px 168px;
-}
-.contenedor-qualia-left{
-    padding: 40px 0px 40px 168px;
-}
+#footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
 
-.contenedor-qualia-absolute {
-    padding: 0px 0px 0px 168px;
 }
 
-.contenedor-qualia-blog{
-    padding: 40px 0px 40px 80px;
+.footer-wrapper{
+    padding-right: 80px;
+}
+.footer-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.circle-icon {
+    background:white;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 25px;
 }
 
-/*
-.hero {
-    background-color: #2E2E2E;
-}*/
+.footer-columnas {
+    color: gray;
+    padding: 10px;
+    line-height: 2;
+}
+
+.footer-columnas-title {
+    margin-bottom: 60px;
+}
+
+/* Hero Quienes Somos */
+
+.qualia-black-quienes-somos{
+    background-color:#2E2E2E;
+  /*  background-image: url('./img/fondo-vector-consideration.png');
+    background-size: cover; 
+    background-repeat: no-repeat; */
+    height: 400px;
+}
+
+
+.span-text-cyan {
+    color: #0096A9 !important;
+}
+
 
 .hero-wrapper {
     display: grid;
@@ -240,23 +260,6 @@ ul li a {
     text-align: center;
 }
 
-/* Hero Section Consideration */
-
-.hero-title-consideration {
-    color: #F2F2F2;
-    font-size: 3em;
-
-}
-
-.hero-textos-consideration {
-    color: #F2F2F2;
-    font-family: 'Roboto', sans-serif;
-    font-size: 21px;
-    font-weight: 400;
-} 
-
-
-
 /* Video Section */
 
 #video-section {
@@ -293,11 +296,8 @@ ul li a {
 .tipos-seguro-wrapper-title h3 {
     color:#0096A9;
     padding: 1em 0em;
-
- /*   font-size: 50px; */
-
+     /*   font-size: 50px; */
 }
-
 
 .tipos-seguro-title {
     text-align: left;
@@ -370,7 +370,32 @@ ul li a {
     grid-template-columns: 1fr;
 }
 
-/* Valores */
+/* Valores Section */
+
+#valores-section {
+    /* background-color:white; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3em 0em;
+}
+
+.valores-wrapper-title {
+    color:#0096A9;
+    display: flex;
+    align-items: center;
+}
+
+.valores-wrapper {
+    display: flex;
+    padding-bottom: 1em;
+}
+
+.card-valores {
+    text-align: center;
+    padding: 1em;
+}
+
+/* Card Valores */
 
 .card-valores-icono-wrapper {
     width: 100%;
@@ -388,38 +413,6 @@ ul li a {
     color: gray;
     font-size: 1em;
     font-weight: 400;
-}
-
-
-
-
-
-/* Valores Section */
-
-#valores-section {
-    /* background-color:white; */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 3em 0em;
-
-}
-
-
-.valores-wrapper-title {
-    color:#0096A9;
-    display: flex;
-    align-items: center;
-}
-
-
-.valores-wrapper {
-    display: flex;
-    padding-bottom: 1em;
-}
-
-.card-valores {
-    text-align: center;
-    padding: 1em;
 }
 
 .card-valores {
@@ -454,8 +447,7 @@ ul li a {
 }
 
 
-
-/* elegi tu seguro section */
+/* Section Elegi Tu Seguro */
 
 #seguros {
     display: grid;
@@ -505,6 +497,10 @@ ul li a {
     text-align: left;
 }
 
+.seguros-background-mobile {
+    display: none;
+}
+
 
 /* Datos Cards Section */
 
@@ -528,9 +524,8 @@ ul li a {
     color: #0096A9 !important;
 }
 
+/* App */
 
-
-/* app */
 #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -577,47 +572,6 @@ ul li a {
 #app .app-image-wrapper {
     text-align: center;
 }
-
-/* blog banner section  */
-.blog-section {
-
-    background-image: url(img/qualia-banner-producto.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-#blog-banner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: #424242;
-    padding: 4em 4em;
-}
-.blog-banner-wrapper {
-    align-items: center;
-}
-
-.blog-banner-title {
-    line-height: 1.1;
-    font-weight: 600;
-    padding-bottom: 0.5em;
-}
-
-.blog-banner-text {
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
-}
-
-
-
-/* Nuestros Productos */
-
-#nuestrosProductos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 
 /* Blog  Cards Section */
 
@@ -733,44 +687,57 @@ border-radius: 10px;
      outline: none;
 }
 
+/* PRODUCTOS PAGINA */
+/* Nuestros Productos */
 
-
-
-
-
-/* footer */
-
-#footer {
+#nuestrosProductos {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-
+    grid-template-columns: 1fr 1fr;
 }
 
-.footer-wrapper{
-    padding-right: 80px;
+/* blog banner section  */
+.blog-section {
+
+    background-image: url(img/qualia-banner-producto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.footer-logos {
+
+
+#blog-banner {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    color: #424242;
+    padding: 4em 4em;
+}
+.blog-banner-wrapper {
     align-items: center;
 }
-.circle-icon {
-    background:white;
-    width: 50px;
-    height: 50px;
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-    border-radius: 50px;
-    font-size: 25px;
+
+.blog-banner-title {
+    line-height: 1.1;
+    font-weight: 600;
+    padding-bottom: 0.5em;
 }
 
-.footer-columnas {
-    color: gray;
-    padding: 10px;
-    line-height: 2;
+.blog-banner-text {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
 }
 
-.footer-columnas-title {
-    margin-bottom: 60px;
+
+/* Hero Section Productos  */
+
+.hero-title-consideration {
+    color: #F2F2F2;
+    font-size: 3em;
+
 }
+
+.hero-textos-consideration {
+    color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+} 

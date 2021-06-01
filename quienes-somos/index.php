@@ -31,7 +31,7 @@
     <section class="hero">
         <div class="hero-wrapper"><!-- grid -->
             <div class="hero-wrapper-contenido">
-                <h2 class="hero-title">Llegó <span class="text-cyan"> Qualia</span></h2>
+                <h2 class="hero-title">Llegó <span class="span-text-cyan"> Qualia</span></h2>
                 <p class="hero-textos">Somos la compania de seguros que llega para ayudarte a que disfrutes y vivas mas tranquilo. Ser simples es nuestro gran diferencial. Queremos ser directos, agiles, claros y sin vueltas en todas las relaciones con nuestros clientes.</p>
                     <div class="hero-textos-bold-wrapper">
                         <p class="hero-textos-bold">Que las cosas simplemente fluyan</p>
