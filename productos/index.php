@@ -364,7 +364,7 @@
 
 
     <!-- CTA Section -->
-    <div class="contenedor-qualia qualia-black">
+    <div class="contenedor-qualia qualia-black-qr">
         <section id="app">
             <div class="app-wrapper">
                 <h3 class="app-title">Tenemos una app para que resuelvas <span class="text-cyan">todo </span> digitalmente</h3>
