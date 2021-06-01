@@ -49,14 +49,30 @@
     <!-- End Section hero -->
     </div>
 
+    
+   <!-- Video Section -->
+   <div class="contenedor-qualia">
+        <section id="video-section">
+            <!--<div class="video-wrapper-text">
+                    <h3 class="video-title">Mira nuestra <br>campana publicitaria</span></h3>
+                    <div class="video-wrapper-button">
+                    <a href="/mi-cuenta" class="qualia-button-primary large">Mi Qualia</a>
+                </div> -->
+            <div class="iframe-wrapper">
+                <iframe width="100%" height="500" class="video-youtube" src="https://www.youtube.com/embed/6evEtKX3KiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </div>
+    <!-- End Video Section -->
+
    
     <!-- Tipos de Seguro Section -->
     <div class="contenedor-qualia qualia-light">
         <section id="tipos-seguro-section">
-            <div class="tipos-seguro-wrapper-title">
+        <!--    <div class="tipos-seguro-wrapper-title">
                 <h3 class="tipos-seguro-title">Conoce nuestros  <br> seguros</h3>
             </div>
-
+        -->
             <div class="tipos-seguro-wrapper">
                 <div class="tipos-seguro-card qualia-grey">
                     <div>
@@ -308,27 +324,6 @@
             </div>
         </section>
     </div>  
-
-        <!-- Video Section -->
-    <!-- Revisar responsive -->
-
-    <div class="contenedor-qualia">
-        <section id="video-section">
-            <div class="video-wrapper-text">
-                <h3 class="video-title">Mira nuestra <br>campana publicitaria</span></h3>
-            <!--   <div class="video-wrapper-button">
-                    <a href="/mi-cuenta" class="qualia-button-primary large">Mi Qualia</a>
-                </div> -->
-            
-            <div class="iframe-wrapper">
-                <iframe width="100%" height="500" class="video-youtube" src="https://www.youtube.com/embed/6evEtKX3KiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-
-
-            </div>      
-        </section>
-    </div>
-    <!-- End Video Section -->
 
     <!-- START Social Proof -->
     <div class="contenedor-qualia">

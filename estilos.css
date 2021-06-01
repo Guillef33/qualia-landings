@@ -8,7 +8,7 @@
 /* Global Styles */
 
 .qualia-grey{
-    background-color: #F2F2F2;
+    background-color: #EFEFEF;
 }
 .qualia-black{
     background-color:#2E2E2E;
@@ -178,6 +178,10 @@ ul li a {
     padding: 0px 0px 0px 168px;
 }
 
+.contenedor-qualia-blog{
+    padding: 40px 0px 40px 80px;
+}
+
 /*
 .hero {
     background-color: #2E2E2E;
@@ -291,7 +295,7 @@ ul li a {
 }
 
 .tipos-seguro-headline-seguro {
-    font-size: 1.4em;
+    font-size: 1.6em;
     text-align: left;
     color: #AFAFAF;
     padding-bottom: 30px;
@@ -312,7 +316,7 @@ ul li a {
 }
 .tipos-seguro-card {
     text-align: center;
-    margin:10px;
+    margin:10px 10px 0px 0px;
     /*box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;*/
     padding: 1em;
     display: flex;
@@ -339,9 +343,11 @@ ul li a {
 .tipos-seguro-card:hover img{
     content: url("./img/Iconos_hogar_color.png");
 }
+/*
 #tipos-seguro-section {
     padding: 0px 20px;
 }
+*/
 .tipos-seguro-card img {
     /*padding-right: 20px;*/
 }
@@ -453,7 +459,7 @@ ul li a {
 
 .background-image-seguros {
     position: absolute;
-    top:2356px;;
+    top:2820px;;
     z-index: 0;
     left: 394px;
 }
@@ -552,6 +558,15 @@ ul li a {
 #app .app-image-wrapper {
     text-align: center;
 }
+
+/* app blog */
+.blog-section {
+
+    background-image: url(img/qualia-banner-producto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 /* Nuestros Productos */
 

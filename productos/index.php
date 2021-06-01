@@ -49,6 +49,7 @@
     <!-- End Section hero -->
     </div>
 
+    <!--
     <div class="contenedor-qualia qualia-light">
         <section id="hitos">
             <div class="hitos-card-social">
@@ -65,6 +66,7 @@
             </div>
         </section>
     </div>
+-->
 
         <!-- Valores Section REPETIDA -->
         <div class="contenedor-qualia">
@@ -78,7 +80,96 @@
                 </div>
             </div>
          </section>
+         <section id="tipos-seguro-section">
+         <!--   <div class="tipos-seguro-wrapper-title">
+                <h3 class="tipos-seguro-title">Conoce nuestros  <br> seguros</h3>
+            </div>
+-->
+            <div class="tipos-seguro-wrapper-consideration">
+                <div class="tipos-seguro-card qualia-grey seguros-grid">
+                <div class="tipos-seguro-wrapper-img-productos">
+                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                    </div>
+                    <div>
+                        <h4  class="tipos-seguro-headline-seguro">Hogar</h4>
+                    </div>
 
+
+                </div>
+                <div class="tipos-seguro-card qualia-grey seguros-grid">
+                <div class="tipos-seguro-wrapper-img-productos">
+                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="tipos-seguro-headline-seguro">Bicicleta</h4>
+                    </div>
+
+                </div>
+                <div class="tipos-seguro-card qualia-grey seguros-grid">
+                    <div class="tipos-seguro-wrapper-img-productos">
+                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="tipos-seguro-headline-seguro">Tecno Portable</h4>
+                    </div>
+                </div>
+
+                <div class="tipos-seguro-card qualia-grey seguros-grid">
+                    <div class="tipos-seguro-wrapper-img-productos">
+                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="tipos-seguro-headline-seguro">Confianza</h4>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class=tipos-seguro-wrapper-consideration">
+                <div class="tipos-seguro-card qualia-grey seguros-grid">
+                    <div class="tipos-seguro-wrapper-img-productos">
+                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                    </div>
+                    <div>
+                        <h4  class="tipos-seguro-headline-seguro">Cercania</h4>
+                    </div>
+                </div>
+
+                <div class="tipos-seguro-card qualia-grey seguros-grid">
+                    <div class="tipos-seguro-wrapper-img-productos">
+                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="tipos-seguro-headline-seguro">Agilidad</h4>
+                    </div>
+                </div>
+
+                <div class="tipos-seguro-card qualia-grey seguros-grid">
+                    <div class="tipos-seguro-wrapper-img-productos">
+                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="tipos-seguro-headline-seguro">Simplicidad</h4>
+                    </div>
+                </div>
+
+                <div class="tipos-seguro-card qualia-grey seguros-grid">
+                    <div class="tipos-seguro-wrapper-img-productos">
+                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="tipos-seguro-headline-seguro">Confianza</h4>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+
+
+         </div>
+
+<!--
          <section id="nuestrosProductos">
             <div class="nuestros-productos-cards">
                 <h3 class="nuestros-productos-title">Salud</h3>
@@ -97,7 +188,7 @@
                 <p>Nuestro producto está pensado para protegerte, otorgándote verdadera seguridad ante cualquier contingencia amparada por la cobertura.</h4>
             </div>
          </section>
-
+        <!--
          <section id="hitos">
             <div class="hitos-card-social">
                 <h3 class="hitos-title">+350</h3>
@@ -113,96 +204,14 @@
             </div>
             
         </section>
-    </div>
+-->
 
     <!-- End Valores Section -->
 
    
     <!-- Tipos de Seguro Section  TERMINAR -->
     <div class="contenedor-qualia qualia-light">
-        <section id="tipos-seguro-section">
-            <div class="tipos-seguro-wrapper-title">
-                <h3 class="tipos-seguro-title">Conoce nuestros  <br> seguros</h3>
-            </div>
-
-            <div class="tipos-seguro-wrapper-consideration">
-                <div class="tipos-seguro-card qualia-grey seguros-grid">
-                <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
-                    </div>
-                    <div>
-                        <h4  class="tipos-seguro-headline-seguro">Hogar</h4>
-                    </div>
-
-
-                </div>
-                <div class="tipos-seguro-card-productos qualia-grey">
-                <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
-                    </div>
-                    <div>
-                        <h4 class="tipos-seguro-headline-seguro">Bicicleta</h4>
-                    </div>
-
-                </div>
-                <div class="tipos-seguro-card-productos qualia-grey">
-                    <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
-                    </div>
-                    <div>
-                        <h4 class="tipos-seguro-headline-seguro">Tecno Portable</h4>
-                    </div>
-                </div>
-
-                <div class="tipos-seguro-card-productos qualia-grey">
-                    <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
-                    </div>
-                    <div>
-                        <h4 class="tipos-seguro-headline-seguro">Confianza</h4>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class=tipos-seguro-wrapper-consideration">
-                <div class="tipos-seguro-card-productos qualia-grey">
-                    <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
-                    </div>
-                    <div>
-                        <h4  class="tipos-seguro-headline-seguro">Cercania</h4>
-                    </div>
-                </div>
-
-                <div class="tipos-seguro-card-productos qualia-grey">
-                    <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
-                    </div>
-                    <div>
-                        <h4 class="tipos-seguro-headline-seguro">Agilidad</h4>
-                    </div>
-                </div>
-
-                <div class="tipos-seguro-card-productos qualia-grey">
-                    <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
-                    </div>
-                    <div>
-                        <h4 class="tipos-seguro-headline-seguro">Simplicidad</h4>
-                    </div>
-                </div>
-
-                <div class="tipos-seguro-card-productos qualia-grey">
-                    <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
-                    </div>
-                    <div>
-                        <h4 class="tipos-seguro-headline-seguro">Confianza</h4>
-                    </div>
-                </div>
-            </div>
-         </section>
+ 
     </div>
 
     <!-- End Valores Section -->
@@ -367,6 +376,23 @@
             </div>
         </section>
     </div>  
+
+    <!-- Blog Section -->
+
+    <div class="contenedor-qualia-blog qualia-grey blog-section">
+        <section id="app">
+            <div class="app-wrapper">
+                <h3 class="app-title">¿Querés conocer más sobre seguros?</h3>
+        <!--      <p class="app-text"><strong>Mi Qualia</strong> te permite gestionar cualquier incidente en el momento y desde cualquier lugar</p>  --> 
+            </div>
+            <div>
+                <img src="" alt="">
+        <!--       <p class="app-caption">Facil, agil y simple</p> -->
+            </div>
+        </section>
+    </div>  
+
+    <!-- End Blog Section -->
 
         <!-- Video Section -->
     <!-- Revisar responsive
