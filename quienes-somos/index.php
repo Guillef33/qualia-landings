@@ -282,27 +282,28 @@
     <!-- END Hitos Proof -->
 
     <!-- Elegi Tu SeguroSection -->
-    <div class="contenedor-qualia-absolute qualia-grey">
-        <section id="seguros">
+    <div class="contenedor-qualia-absolute qualia-grey seguros-background-mobile">
+        <section id="seguros"> 
                 <div>
                     <h3 class="seguros-title">Sacá tu seguro en 3 simples pasos</h3>
                 </div>
-                <div class="seguros-pasos">
+                
+                <div class="seguros-pasos right">
                     <h3 class="seguros-number">01</h3>
                     <p class="seguros-paragraph">Elegi <br>el seguro</p>
                 </div>
-                <div class="seguros-pasos">
+                <div class="seguros-pasos left">
                     <h3 class="seguros-number">02</h3>
                     <p class="seguros-paragraph">Completa <br>tus datos</p>   
                 </div>
-                <div class="seguros-pasos">
+                <div class="seguros-pasos right">
                     <h3 class="seguros-number">03</h3>
                     <p class="seguros-paragraph">Contrata <br>online</p>  
                 </div>
-            
+
         <img src="../img/fondo-vector.png" alt="" class="background-image-seguros"> 
 
-        <img src="../img/menupasosmobile.svg" alt="" class="seguros-background-mobile">
+    <!--     <img src="../img/menupasosmobile.svg" alt="" class="seguros-background-mobile"> -->
         
     <!--    <img src="../img/pasos-mobile.jpg" alt="" class="seguros-background-mobile"> -->
 
@@ -332,28 +333,28 @@
         </div>
         <section id="blog">
             <div class="blog-card-social">
-                <img src="../img/blog-image.jpg" alt="" class="blog-image">
+                <img src="../img/image-sample.jpg" alt="" class="blog-image">
                 <div class="blog-content-wrapper">
                 <h3 class="blog-title">Blog Title</h3>                
                 <p class="blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam minus, soluta aliquam fugiat maxime veniam eligendi eum.</p>
                 </div>
             </div>
             <div class="blog-card-social">
-                <img src="../img/blog-image.jpg" alt="" class="blog-image">
+                <img src="../img/image-sample.jpg" alt="" class="blog-image">
                 <div class="blog-content-wrapper">
                 <h3 class="blog-title">Blog Title</h3>
                 <p class="blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam minus, soluta aliquam fugiat maxime veniam eligendi eum.</p>
                 </div>
             </div>
             <div class="blog-card-social">
-                <img src="../img/blog-image.jpg" alt="" class="blog-image">
+                <img src="../img/image-sample.jpg" alt="" class="blog-image">
                 <div class="blog-content-wrapper">
                 <h3 class="blog-title">Blog Title</h3>
                 <p class="blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam minus, soluta aliquam fugiat maxime veniam eligendi eum.</p>
                 </div>
             </div>
             <div class="blog-card-social">
-                <img src="../img/blog-image.jpg" alt="" class="blog-image">
+                <img src="../img/image-sample.jpg" alt="" class="blog-image">
                 <div class="blog-content-wrapper">
                 <h3 class="blog-title">Blog Title</h3>
                 <p class="blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam minus, soluta aliquam fugiat maxime veniam eligendi eum.</p>
@@ -370,7 +371,7 @@
         </div>
         <section id="form">
             <div>
-                <img src="../img/blog-image.jpg" alt="">
+                <img src="../img/image-sample.jpg" alt="" width="400px">
             </div>
             <div class="form-wrapper">
                 <form action="" class="formLanding">
