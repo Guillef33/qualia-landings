@@ -26,16 +26,6 @@
     <?php include('../header.html'); ?>
     <!-- #FIN HEADER -->
 
-
-<div id="nav-links-mobile">
-    <ul>
-        <li><a href="#" class="nav-link">Link 1</a></li>
-        <li><a href="#" class="nav-link">Link 2</a></li>
-        <li><a href="#" class="nav-link">Link 3</a></li>
-        <li><a href="#" class="nav-link">Link 4</a></li>
-    </ul>
-</div>
-
    <div class="contenedor-qualia qualia-grey">
     <!-- Section hero -->
     <section class="hero">
