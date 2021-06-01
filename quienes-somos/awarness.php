@@ -87,7 +87,7 @@
                 </div>
                 <div class="tipos-seguro-card qualia-grey">
                     <div>
-                        <h4 class="tipos-seguro-headline-seguro">Confianza</h4>
+                        <h4 class="tipos-seguro-headline-seguro">Bolso</h4>
                     </div>
                     <div class="tipos-seguro-wrapper-img">
                         <img src="../img/Iconos_hogar_gris.png" alt="">
@@ -101,7 +101,7 @@
             <div class="tipos-seguro-wrapper">
                 <div class="tipos-seguro-card qualia-grey">
                     <div>
-                        <h4  class="tipos-seguro-headline-seguro">Cercania</h4>
+                        <h4  class="tipos-seguro-headline-seguro">Cajero</h4>
                     </div>
                     <div class="tipos-seguro-wrapper-img">
                         <img src="../img/Iconos_hogar_gris.png" alt="">
@@ -110,7 +110,7 @@
                 </div>
                 <div class="tipos-seguro-card qualia-grey">
                     <div>
-                        <h4 class="tipos-seguro-headline-seguro">Agilidad</h4>
+                        <h4 class="tipos-seguro-headline-seguro">Accidentes</h4>
                     </div>
                     <div class="tipos-seguro-wrapper-img">
                         <img src="../img/Iconos_hogar_gris.png" alt="">
@@ -119,7 +119,7 @@
                 </div>
                 <div class="tipos-seguro-card qualia-grey">
                     <div>
-                        <h4 class="tipos-seguro-headline-seguro">Simplicidad</h4>
+                        <h4 class="tipos-seguro-headline-seguro">Salud</h4>
                     </div>
                     <div class="tipos-seguro-wrapper-img">
                         <img src="../img/Iconos_hogar_gris.png" alt="">
@@ -128,7 +128,7 @@
                 </div>
                 <div class="tipos-seguro-card qualia-grey">
                     <div>
-                        <h4 class="tipos-seguro-headline-seguro">Confianza</h4>
+                        <h4 class="tipos-seguro-headline-seguro">Vida</h4>
                     </div>
                     <div class="tipos-seguro-wrapper-img">
                         <img src="../img/Iconos_hogar_gris.png" alt="">

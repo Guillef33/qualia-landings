@@ -66,8 +66,59 @@
         </section>
     </div>
 
+        <!-- Valores Section REPETIDA -->
+        <div class="contenedor-qualia">
+        <section id="valores-section">
+            <div class="valores-wrapper-title">
+                <h3 class="valores-title">Nuestros <br> productos</h3>
+            </div>
+            <div class="valores-wrapper">
+                <div class="card-valores">
+                        <p>Ofrecemos seguros con una experiencia simple para que las personas vivan más tranquilas y disfruten más</h4>
+                </div>
+            </div>
+         </section>
+
+         <section id="nuestrosProductos">
+            <div class="nuestros-productos-cards">
+                <h3 class="nuestros-productos-title">Salud</h3>
+                <p>Te otorga un monto de dinero en caso de sufrir ciertas enfermedades graves, trasplantes o internación por cirugías.</h4>
+            </div>
+            <div class="nuestros-productos-cards">
+                <h3 class="nuestros-productos-title">Vida <br> productos</h3>
+                <p>Nuestro producto está pensado para protegerte, otorgándote verdadera seguridad ante cualquier contingencia amparada por la cobertura.</h4>
+            </div>
+            <div class="nuestros-productos-cards">
+                <h3 class="nuestros-productos-title">Accidentes personales</h3>
+                <p>Nuestro producto está pensado para protegerte, otorgándote verdadera seguridad ante cualquier contingencia amparada por la cobertura.</h4>
+            </div>
+            <div class="nuestros-productos-cards">
+                <h3 class="nuestros-productos-title">Accidentes personales senior</h3>
+                <p>Nuestro producto está pensado para protegerte, otorgándote verdadera seguridad ante cualquier contingencia amparada por la cobertura.</h4>
+            </div>
+         </section>
+
+         <section id="hitos">
+            <div class="hitos-card-social">
+                <h3 class="hitos-title">+350</h3>
+                <p class="valores-card-text">colabores para hacerte las cosas faciles</p>
+            </div>
+            <div class="hitos-card-social">
+                <h3 class="hitos-title">24/7</h3>
+                <p class="valores-card-text">Disponibles para vos para que puedas resolver todo de manera agil</p>
+            </div>
+            <div class="hitos-card-social">
+                <h3 class="hitos-title">8</h3>
+                <p class="valores-card-text">seguros pensados especialmente para cada necesidad</p>
+            </div>
+            
+        </section>
+    </div>
+
+    <!-- End Valores Section -->
+
    
-    <!-- Tipos de Seguro Section -->
+    <!-- Tipos de Seguro Section  TERMINAR -->
     <div class="contenedor-qualia qualia-light">
         <section id="tipos-seguro-section">
             <div class="tipos-seguro-wrapper-title">
@@ -75,7 +126,7 @@
             </div>
 
             <div class="tipos-seguro-wrapper-consideration">
-                <div class="tipos-seguro-card-productos qualia-grey">
+                <div class="tipos-seguro-card qualia-grey seguros-grid">
                 <div class="tipos-seguro-wrapper-img-productos">
                         <img src="../img/Iconos_hogar_gris.png" alt="">
                     </div>

@@ -320,7 +320,7 @@ ul li a {
     flex-direction: column; 
 }
 
-.tipos-seguro-card-productos {
+.seguros-grid {
     text-align: center;
     margin:10px;
     /*box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;*/
@@ -328,6 +328,7 @@ ul li a {
     display: grid;
     grid-template-columns: 1fr 10fr;
 }
+
 
 .tipos-seguro-card:hover h4{
     color:#333333;
@@ -550,6 +551,13 @@ ul li a {
 
 #app .app-image-wrapper {
     text-align: center;
+}
+
+/* Nuestros Productos */
+
+#nuestrosProductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 
