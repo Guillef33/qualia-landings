@@ -290,6 +290,10 @@ ul li a {
 
 /* Tipos de Seguro Section */
 
+tipos-seguro-headline-seguro:hover:after {
+    content: "Hola como estas";
+}
+
 
 .tipos-seguro-wrapper-title h3 {
     color:#0096A9;
@@ -345,6 +349,7 @@ ul li a {
 
 .tipos-seguro-card:hover h4{
     color:#333333;
+
 }
 .tipos-seguro-card:hover{
     box-shadow: rgba(17, 12, 46, 0.15) 3px 3px 12px;
