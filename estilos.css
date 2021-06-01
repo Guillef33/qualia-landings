@@ -311,7 +311,12 @@ tipos-seguro-headline-seguro:hover:after {
     font-size: 1.6em;
     text-align: left;
     color: #AFAFAF;
-    padding-bottom: 30px;
+    padding-left: 1rem;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0;
+}
+.tipos-seguro-card p{
+    padding-left: 1rem;
 }
 
 .tipos-seguro-wrapper {
@@ -357,11 +362,14 @@ tipos-seguro-headline-seguro:hover:after {
 .tipos-seguro-card:hover img{
     content: url("./img/Iconos_hogar_color.png");
 }
-/*
-#tipos-seguro-section {
-    padding: 0px 20px;
+.tipos-seguro-card:hover p{
+    display: block !important;
 }
-*/
+
+#tipos-seguro-section {
+    padding: 0px 40px;
+}
+
 .tipos-seguro-card img {
     /*padding-right: 20px;*/
 }
@@ -545,7 +553,7 @@ tipos-seguro-headline-seguro:hover:after {
 }
 
 .app-wrapper {
-    padding: 0 4em 0 0;
+    padding: 0 3em 0 0;
     align-items: center;
 }
 
@@ -558,7 +566,8 @@ tipos-seguro-headline-seguro:hover:after {
 .app-text {
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    font-size: 0.85rem;
+    color:#B9B9B9;
 }
 
 .app-caption {
@@ -594,8 +603,9 @@ tipos-seguro-headline-seguro:hover:after {
 .blog-wrapper-title {
     text-align: center;
     padding: 1em 1em;
-    color: #424242;
+    color: #5F5F5F;
     font-weight: 700;
+    font-size: 2.5rem;
   /*  font-size: 50px; */
 
 }
@@ -628,7 +638,7 @@ tipos-seguro-headline-seguro:hover:after {
 
 #form {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 3fr 7fr;
     padding: 2em 0em;
     height: 750px;
 }
@@ -642,30 +652,39 @@ tipos-seguro-headline-seguro:hover:after {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 70%;
+    width: 85%;
     line-height: 2.5;
 }
+.form-img-wrapper img{
+    margin: 35px 0px 0px auto;
+    display: block;
+}
+#form-options-seguros,#form-options-seguros option{
+    color: #7C7B7B !important;
 
+}
 .formLanding label{
-    color: #2E2E2E;
+    color: #808080;
+    font-size: 0.85rem;
     font-weight: 700;
 }
 
 
 .qualia-button-primary-form {
     background-color: #0096A9;
-    padding: 1em 2em !important;
+    padding: 0.85em 1.8em !important;
     border-radius: 10px;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
     border: none !important;
     margin-top: 30px;
     font-size: 15px;
+    box-shadow: 0px 0px 14px #0096A9;
 }
 
 .formLanding input, select{
 padding: 10px;
-border: lightgray 2px solid;
+border: #DCDCDC 2px solid;
 border-radius: 10px;
 }
 
@@ -721,12 +740,16 @@ border-radius: 10px;
     line-height: 1.1;
     font-weight: 600;
     padding-bottom: 0.5em;
+    color:#4F4F4F;
 }
 
 .blog-banner-text {
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
+}
+.blog-banner-text strong{
+    color:#0096A9;
 }
 
 
@@ -739,6 +762,7 @@ border-radius: 10px;
 }
 
 .hero-textos-consideration {
+    margin-top: 12px;
     color: #F2F2F2;
     font-family: 'Roboto', sans-serif;
     font-size: 21px;

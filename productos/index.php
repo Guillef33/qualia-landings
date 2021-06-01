@@ -35,7 +35,7 @@
     <section class="hero">
         <div class="hero-wrapper"><!-- grid -->
             <div class="hero-wrapper-contenido">
-                <h2 class="hero-title-consideration">Conoce <span class="text-cyan"> Qualia</span></h2>
+                <h2 class="hero-title-consideration">Conocé <span class="span-text-cyan"> Qualia</span></h2>
                 <p class="hero-textos-consideration">Ofrecemos seguros con una experiencia simple para que las personas vivan más tranquilas y disfruten más.</p>
             </div>
             <div class="hero-image-wrapper">
@@ -92,6 +92,7 @@
                     </div>
                     <div>
                         <h4  class="tipos-seguro-headline-seguro">Hogar</h4>
+                        <p style="display: none;text-align: left;">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
                     </div>
 
 
@@ -367,8 +368,8 @@
     <div class="contenedor-qualia qualia-black-qr">
         <section id="app">
             <div class="app-wrapper">
-                <h3 class="app-title">Tenemos una app para que resuelvas <span class="text-cyan">todo </span> digitalmente</h3>
-                <p class="app-text">Un seguro de tu lado <i>Mi Qualia</i> qualiseguros.com</p> 
+                <h3 class="app-title">Tenemos una app para que resuelvas <span class="span-text-cyan">todo </span> digitalmente</h3>
+                <p class="app-text">Un seguro de tu lado <img src="../img/qualia-mini-icon.png" style="height:22px;width:17px; margin-left: 5px;margin-right: 5px; margin-bottom: -5px;"> qualiaseguros.com</p> 
             </div>
             <div class="app-image-wrapper">
                 <img src="../img/qrcode.png" alt="">
@@ -415,51 +416,13 @@
     </div> -->
     <!-- End Video Section -->
 
-    <!-- START Social Proof -->
-    <div class="contenedor-qualia">
-        <div>
-            <h3 class="blog-wrapper-title">Articulos relacionados</h3>
-        </div>
-        <section id="blog">
-            <div class="blog-card-social">
-                <img src="../img/blog-image.jpg" alt="" class="blog-image">
-                <div class="blog-content-wrapper">
-                <h3 class="blog-title">Blog Title</h3>                
-                <p class="blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam minus, soluta aliquam fugiat maxime veniam eligendi eum.</p>
-                </div>
-            </div>
-            <div class="blog-card-social">
-                <img src="../img/blog-image.jpg" alt="" class="blog-image">
-                <div class="blog-content-wrapper">
-                <h3 class="blog-title">Blog Title</h3>
-                <p class="blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam minus, soluta aliquam fugiat maxime veniam eligendi eum.</p>
-                </div>
-            </div>
-            <div class="blog-card-social">
-                <img src="../img/blog-image.jpg" alt="" class="blog-image">
-                <div class="blog-content-wrapper">
-                <h3 class="blog-title">Blog Title</h3>
-                <p class="blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam minus, soluta aliquam fugiat maxime veniam eligendi eum.</p>
-                </div>
-            </div>
-            <div class="blog-card-social">
-                <img src="../img/blog-image.jpg" alt="" class="blog-image">
-                <div class="blog-content-wrapper">
-                <h3 class="blog-title">Blog Title</h3>
-                <p class="blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam minus, soluta aliquam fugiat maxime veniam eligendi eum.</p>
-                </div>
-            </div>
-        </section>
-    </div>
-    <!-- END Social Proof -->
-
     <!-- Form Section -->
     <div class="contenedor-qualia form-background">
         <div>
-            <h3 class="blog-wrapper-title">¿Querés tener más información de nuestros productos?</h3>
+            <h3 class="blog-wrapper-title">Contactanos para obtener más <br> información sobre nuestros productos</h3>
         </div>
         <section id="form">
-            <div>
+            <div class="form-img-wrapper">
                 <img src="../img/blog-image.jpg" alt="">
             </div>
             <div class="form-wrapper">
@@ -472,6 +435,7 @@
                     <div class="validate"></div>
                     <label for="">Seguro que queres consultar</label>
                     <select id="form-options-seguros" name="seguros">
+                        <option value="">Seleccioná tu seguro</option>
                         <option value="hogar">Hogar</option>
                         <option value="bicicleta">Bicicleta</option>
                         <option value="tecno-portable">Tecno Portable</option>
