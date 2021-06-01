@@ -396,7 +396,7 @@ ul li a {
 #valores-section {
     /* background-color:white; */
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     padding: 3em 0em;
 
 }
@@ -536,7 +536,6 @@ ul li a {
 }
 .app-wrapper {
     padding: 0 4em 0 0;
-    display: flex;
     align-items: center;
 }
 
@@ -574,6 +573,29 @@ ul li a {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#blog-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #424242;
+    padding: 4em 4em;
+}
+.blog-banner-wrapper {
+    align-items: center;
+}
+
+.blog-banner-title {
+    line-height: 1.1;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.blog-banner-text {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+
 
 
 /* Nuestros Productos */

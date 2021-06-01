@@ -76,7 +76,7 @@
             </div>
             <div class="valores-wrapper">
                 <div class="card-valores">
-                        <p>Ofrecemos seguros con una experiencia simple para que las personas vivan más tranquilas y disfruten más</h4>
+                        <p>Los productos aparecen en gris. Al hacer mouse hover, se ilumina el icono, el nombre se va arriba, se agrega la descripción del mismo y se hace clickeable</h4>
                 </div>
             </div>
          </section>
@@ -368,7 +368,7 @@
         <section id="app">
             <div class="app-wrapper">
                 <h3 class="app-title">Tenemos una app para que resuelvas <span class="text-cyan">todo </span> digitalmente</h3>
-        <!--      <p class="app-text"><strong>Mi Qualia</strong> te permite gestionar cualquier incidente en el momento y desde cualquier lugar</p>  --> 
+                <p class="app-text">Un seguro de tu lado <i>Mi Qualia</i> qualiseguros.com</p> 
             </div>
             <div class="app-image-wrapper">
                 <img src="../img/qrcode.png" alt="">
@@ -380,10 +380,10 @@
     <!-- Blog Section -->
 
     <div class="contenedor-qualia-blog qualia-grey blog-section">
-        <section id="app">
-            <div class="app-wrapper">
-                <h3 class="app-title">¿Querés conocer más sobre seguros?</h3>
-        <!--      <p class="app-text"><strong>Mi Qualia</strong> te permite gestionar cualquier incidente en el momento y desde cualquier lugar</p>  --> 
+        <section id="blog-banner">
+            <div class="blog-banner-wrapper">
+                <h3 class="blog-banner-title">¿Querés conocer más sobre seguros?</h3>
+                <p class="blog-banner-text">Conoce todo en nuestro <strong>blog</strong></p> 
             </div>
             <div>
                 <img src="" alt="">
