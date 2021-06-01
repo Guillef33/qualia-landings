@@ -128,8 +128,6 @@ ul li a {
 
 }
 
-
-
 /* Alert */
 
 #alert {
@@ -152,8 +150,8 @@ ul li a {
 
 #closeAlert {
     position: absolute;
-    top: 20px;
-    left: 95%;
+    top: 24px;
+    left: 90%;
     font-weight: 700;
     cursor: pointer;
     font-size: 30px;
@@ -535,7 +533,7 @@ ul li a {
 
 .qualia-black-qr{
     background-color:#2E2E2E;
-    background-image: url('./img/fondo-vector-consideration.png');
+    background-image: url('./img/mask-group-qr.png');
     background-size: cover; 
     height: 400px;
     background-repeat: no-repeat;
@@ -741,3 +739,24 @@ border-radius: 10px;
     font-size: 21px;
     font-weight: 400;
 } 
+
+
+/* Section Nuestros Productos */
+
+#nuestros-productos {
+    /* background-color:white; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3em 0em;
+}
+
+.nuestros-productos-wrapper-title {
+    color:#0096A9;
+    display: flex;
+    align-items: center;
+}
+
+.nuestros-productos-wrapper {
+    display: flex;
+    padding-bottom: 1em;
+}

@@ -70,11 +70,11 @@
 
         <!-- Valores Section REPETIDA -->
         <div class="contenedor-qualia">
-        <section id="valores-section">
-            <div class="valores-wrapper-title">
-                <h3 class="valores-title">Nuestros <br> productos</h3>
+        <section id="nuestros-productos">
+            <div class="nuestros-productos-title">
+                <h3 class="nuestros-productos-title">Nuestros <br> productos</h3>
             </div>
-            <div class="valores-wrapper">
+            <div class="nuestros-productos">
                 <div class="card-valores">
                         <p>Los productos aparecen en gris. Al hacer mouse hover, se ilumina el icono, el nombre se va arriba, se agrega la descripción del mismo y se hace clickeable</h4>
                 </div>
