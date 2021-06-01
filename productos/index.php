@@ -30,7 +30,7 @@
 
 
 
-   <div class="contenedor-qualia qualia-black">
+   <div class="contenedor-qualia qualia-black-hero">
     <!-- Section hero -->
     <section class="hero">
         <div class="hero-wrapper"><!-- grid -->

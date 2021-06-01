@@ -7,6 +7,8 @@
 
 /* Global Styles */
 
+/* Colors background */
+
 .qualia-grey{
     background-color: #EFEFEF;
 }
@@ -17,10 +19,11 @@
     background-color:#FFFFFF;
 }
 
+/* Titulos */
+
 h2 {
     font-size: 4em;
     padding: 0.2em 0em;
-
 }
 
 h3 {
@@ -31,6 +34,8 @@ h3 {
 a {
     text-decoration: none;
 }
+
+/* Buttons */
 
 .qualia-button-mobile{
     display: none;
@@ -45,7 +50,9 @@ a {
 }
 
 
-.qualia-black{
+/* Hero Productos */
+
+.qualia-black-hero{
     background-color:#2E2E2E;
     background-image: url('./img/fondo-vector-consideration.png');
     background-size: cover; 
@@ -53,13 +60,9 @@ a {
     background-repeat: no-repeat;
 }
 
-.qualia-black-qr{
-    background-color:#2E2E2E;
-    background-image: url('./img/mask-group-qr.png');
-    background-size: cover; 
-    height: 400px;
-    background-repeat: no-repeat;
-}
+
+
+/* Hero Quienes Somos */
 
 .qualia-black-quienes-somos{
     background-color:#2E2E2E;
@@ -534,6 +537,15 @@ ul li a {
     color: white;
     padding: 4em 0em;
 }
+
+.qualia-black-qr{
+    background-color:#2E2E2E;
+    background-image: url('./img/fondo-vector-consideration.png');
+    background-size: cover; 
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
 .app-wrapper {
     padding: 0 4em 0 0;
     align-items: center;
@@ -573,6 +585,7 @@ ul li a {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 #blog-banner {
     display: grid;
