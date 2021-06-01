@@ -7,7 +7,7 @@ document.getElementById("closeAlert").onclick = function(){
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function myFunction() {
-	var mobileMenu = document.getElementById("nav-links-mobile");
+	var mobileMenu = document.getElementById("nav-links");
 	if (mobileMenu.style.display === "block") {
 		mobileMenu.style.display = "none";
 	} else {

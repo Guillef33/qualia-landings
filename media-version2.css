@@ -3,7 +3,7 @@
     /* Nav */
 
     .navGrid ul {
-        display: none !important;
+        /*display: none !important;*/
     }
     #nav .qualia-button-primary {
         width: 150px;
@@ -156,6 +156,7 @@
 }
 
 @media(max-width: 768px) {
+
     #nav-links-mobile{
         display: none;
     }
@@ -181,8 +182,17 @@
         display: none
     }
     nav.navGrid {
-        grid-template-columns: 1fr 2fr 0fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
         padding:  1rem;
+    }
+    nav.navGrid #nav-links{
+        display: none;
+        grid-row: 2;
+        grid-column:2;
+    }
+    nav.navGrid #nav-links ul{
+        display: block;
+        text-align: center
     }
     /* Tipos de Seguro */
 
