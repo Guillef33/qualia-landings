@@ -92,7 +92,7 @@
                     </div>
                     <div>
                         <h4  class="tipos-seguro-headline-seguro">Hogar</h4>
-                        <p style="display: none;text-align: left;">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
+                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
                     </div>
 
 
