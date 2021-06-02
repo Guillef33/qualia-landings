@@ -241,6 +241,21 @@
         height: auto !important;
     }
 
+    .qualia-black-hero {
+        background-position: center;
+    }
+
+    .hero-textos-consideration {
+        text-align: left;
+        padding: 20px;
+    }
+
+    .hero-title-consideration  {
+        text-align: left;
+        padding: 20px;
+
+    }
+
     /* Seguros */
 
     .seguros-background-mobile{
@@ -267,16 +282,18 @@
     }
 
     .seguros-pasos {
-        padding: 40px 100px;
+        padding: 20px 80px;
     }
 
-
+    
     .right {
-        text-align: right;
-    }
+        width: 50vw;
+        margin-left: auto;
+        text-align: left;    }
     .left {
-        text-align: left;
-    }
+        width: 50vw;
+        margin-right: auto;
+        text-align: left;    }
 
     #seguros {
         height: auto;
@@ -376,22 +393,4 @@
     }
     
 
-}
-
-
-/* Section Nuestros Productos */
-
-
-
-/*
-
-.nuestros-productos-wrapper-title {
-    color:#0096A9;
-    display: flex;
-    align-items: center;
-}
-
-.nuestros-productos-wrapper {
-    display: flex;
-    padding-bottom: 1em;
 }
