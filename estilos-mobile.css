@@ -332,8 +332,9 @@
     /* Form */
 
     .form-img-wrapper {
-        margin: auto;
-        padding-bottom: 30px;
+        display: none;
+       /* margin: auto;
+        padding-bottom: 30px; */
     }
 
     /* Footer */

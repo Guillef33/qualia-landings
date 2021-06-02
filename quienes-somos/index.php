@@ -370,7 +370,7 @@
             <h3 class="blog-wrapper-title">¿Querés tener más información de nuestros productos?</h3>
         </div>
         <section id="form">
-            <div>
+            <div class="form-img-wrapper">
                 <img src="../img/image-sample.jpg" alt="" width="400px">
             </div>
             <div class="form-wrapper">
