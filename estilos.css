@@ -337,7 +337,19 @@ ul li a {
 
 .tipos-seguro-wrapper-img {
     text-align: right;
-    transition: content
+    transition: content;
+}
+
+.iconos-filter {
+    grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
+.iconos-filter:hover {
+    grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%)    
 }
 
 .tipos-seguro-wrapper-img-productos {
@@ -371,9 +383,20 @@ ul li a {
 .tipos-seguro-card:hover{
     box-shadow: rgba(17, 12, 46, 0.15) 3px 3px 12px;
 }
+
+.tipos-seguro-card:hover .iconos-filter {
+    filter:grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%)
+}
+
+
+/*
 .tipos-seguro-card:hover img{
     content: url("./img/Iconos_hogar_color.png");
-}
+}*/
+
+
 /*
 .tipos-seguro-card:hover img {
     content: url("./img/seguro-salud-icon.png") !important;
