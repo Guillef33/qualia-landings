@@ -69,6 +69,12 @@ a {
     border: none;
 }
 
+.btn-mobile {
+    display: none !important;
+}
+
+
+
 
 /* Hero Productos */
 
@@ -292,9 +298,7 @@ ul li a {
 
 /* Tipos de Seguro Section */
 
-tipos-seguro-headline-seguro:hover:after {
-    content: "Hola como estas";
-}
+
 .tipos-seguro-text-seguro{
     display: none;
     text-align: left;
@@ -351,6 +355,7 @@ tipos-seguro-headline-seguro:hover:after {
 
 .seguros-grid {
     text-align: center;
+    align-items: center;
     margin:10px;
     /*box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;*/
     padding: 1em;
@@ -551,12 +556,11 @@ tipos-seguro-headline-seguro:hover:after {
     background-color:#2E2E2E;
     background-image: url('./img/mask-group-qr.png');
     background-size: cover; 
-    height: 400px;
     background-repeat: no-repeat;
 }
 
 .app-wrapper {
-    padding: 0 3em 0 0;
+    padding: 0 9em 0 0;
     align-items: center;
 }
 
@@ -569,7 +573,7 @@ tipos-seguro-headline-seguro:hover:after {
 .app-text {
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
-    font-size: 0.85rem;
+    font-size: 1rem;
     color:#B9B9B9;
 }
 
@@ -581,8 +585,13 @@ tipos-seguro-headline-seguro:hover:after {
 }
 
 #app img {
-   width: 30%;
+   width: 40%;
 }
+ 
+.app-logo-white {
+    width: 20% !important;
+ }
+
 
 #app .app-image-wrapper {
     text-align: center;
@@ -643,7 +652,7 @@ tipos-seguro-headline-seguro:hover:after {
     display: grid;
     grid-template-columns: 3fr 7fr;
     padding: 2em 0em;
-    height: 750px;
+
 }
 
 .form-title {
@@ -722,10 +731,10 @@ border-radius: 10px;
 
 /* blog banner section  */
 .blog-section {
-
     background-image: url(img/qualia-banner-producto.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    height: 430px;
 }
 
 
@@ -744,6 +753,7 @@ border-radius: 10px;
     font-weight: 600;
     padding-bottom: 0.5em;
     color:#4F4F4F;
+    padding-right: 120px;
 }
 
 .blog-banner-text {
@@ -792,3 +802,8 @@ border-radius: 10px;
     display: flex;
     padding-bottom: 1em;
 }
+
+.nuestros-productos-title {
+    color:#424242;
+}
+

@@ -88,10 +88,10 @@
             <div class="tipos-seguro-wrapper-consideration">
                 <div class="tipos-seguro-card qualia-grey seguros-grid">
                 <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                        <img src="../img/seguro-salud-icon.png" alt="">
                     </div>
                     <div>
-                        <h4  class="tipos-seguro-headline-seguro">Hogar</h4>
+                        <h4  class="tipos-seguro-headline-seguro">Salud</h4>
                         <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
                     </div>
 
@@ -99,10 +99,11 @@
                 </div>
                 <div class="tipos-seguro-card qualia-grey seguros-grid">
                 <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                        <img src="../img/seguro-vida-icon.png" alt="">
                     </div>
                     <div>
-                        <h4 class="tipos-seguro-headline-seguro">Bicicleta</h4>
+                        <h4 class="tipos-seguro-headline-seguro">Vida</h4>
+                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
                     </div>
 
                 </div>
@@ -111,7 +112,8 @@
                         <img src="../img/Iconos_hogar_gris.png" alt="">
                     </div>
                     <div>
-                        <h4 class="tipos-seguro-headline-seguro">Tecno Portable</h4>
+                        <h4 class="tipos-seguro-headline-seguro">Hogar</h4>
+                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
                     </div>
                 </div>
 
@@ -120,7 +122,8 @@
                         <img src="../img/Iconos_hogar_gris.png" alt="">
                     </div>
                     <div>
-                        <h4 class="tipos-seguro-headline-seguro">Confianza</h4>
+                        <h4 class="tipos-seguro-headline-seguro">Accidentes personales</h4>
+                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
                     </div>
                 </div>
             </div>
@@ -132,7 +135,8 @@
                         <img src="../img/Iconos_hogar_gris.png" alt="">
                     </div>
                     <div>
-                        <h4  class="tipos-seguro-headline-seguro">Cercania</h4>
+                        <h4  class="tipos-seguro-headline-seguro">Bicicleta</h4>
+                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
                     </div>
                 </div>
 
@@ -141,7 +145,8 @@
                         <img src="../img/Iconos_hogar_gris.png" alt="">
                     </div>
                     <div>
-                        <h4 class="tipos-seguro-headline-seguro">Agilidad</h4>
+                        <h4 class="tipos-seguro-headline-seguro">Robo de bolso</h4>
+                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
                     </div>
                 </div>
 
@@ -150,7 +155,8 @@
                         <img src="../img/Iconos_hogar_gris.png" alt="">
                     </div>
                     <div>
-                        <h4 class="tipos-seguro-headline-seguro">Simplicidad</h4>
+                        <h4 class="tipos-seguro-headline-seguro">Robo de cajero</h4>
+                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
                     </div>
                 </div>
 
@@ -159,7 +165,8 @@
                         <img src="../img/Iconos_hogar_gris.png" alt="">
                     </div>
                     <div>
-                        <h4 class="tipos-seguro-headline-seguro">Confianza</h4>
+                        <h4 class="tipos-seguro-headline-seguro">Notebook</h4>
+                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
                     </div>
                 </div>
             </div>
@@ -368,11 +375,16 @@
     <div class="contenedor-qualia qualia-black-qr">
         <section id="app">
             <div class="app-wrapper">
+                <img src="../img/qualia-logo-white.png" alt="" class="app-logo-white">
                 <h3 class="app-title">Tenemos una app para que resuelvas <span class="span-text-cyan">todo </span> digitalmente</h3>
                 <p class="app-text">Un seguro de tu lado <img src="../img/qualia-mini-icon.png" style="height:22px;width:17px; margin-left: 5px;margin-right: 5px; margin-bottom: -5px;"> qualiaseguros.com</p> 
             </div>
             <div class="app-image-wrapper">
-                <img src="../img/qrcode.png" alt="">
+                <img src="../img/qrcode.png" alt="" class="img-desktop">
+                <a href="/mi-cuenta" class="qualia-button-primary btn-mobile">Play Store</a>
+                <a href="/mi-cuenta" class="qualia-button-primary btn-mobile">App Store</a>
+
+
         <!--       <p class="app-caption">Facil, agil y simple</p> -->
             </div>
         </section>
@@ -385,6 +397,7 @@
             <div class="blog-banner-wrapper">
                 <h3 class="blog-banner-title">¿Querés conocer más sobre seguros?</h3>
                 <p class="blog-banner-text">Conoce todo en nuestro <strong>blog</strong></p> 
+                <a href="/mi-cuenta" class="qualia-button-primary btn-mobile">Conoce nuestro blog</a>
             </div>
             <div>
                 <img src="" alt="">

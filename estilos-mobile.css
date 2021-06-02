@@ -124,6 +124,14 @@
         padding: 0.1em;
     }
 
+    .img-desktop {
+        display: none;
+    }
+
+    .btn-mobile {
+        display: block;
+    }
+
     /* Blog */
 
     #blog {
@@ -133,6 +141,20 @@
     #blog .blog-card-social {
         margin-bottom: 1em;
         padding: 20px 0px;
+    }
+
+    #blog-banner  {
+        grid-template-columns: 1fr !important;
+        text-align: center;
+        padding: 0em 0em;
+    }
+
+    .blog-section {
+        background-image: none;
+    }
+
+    .blog-banner-text {
+        display: none;
     }
 
     /* Form */
@@ -223,7 +245,11 @@
         height: 700px;
         background-repeat: no-repeat;
         z-index: 10;
+    }
 
+    .seguros-grid {
+        align-items:center;
+        padding: 10px 10px;
     }
     
     .seguros-title{
@@ -305,18 +331,26 @@
         padding: 4px 5px;
     }
 
+    #nuestros-productos {
+        display: none !important;
+        /* background-color:white
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3em 0em;; */
+    }
+    
+    .btn-mobile {
+        display: block !important;
+        box-shadow: 0px 0px 14px #0096a9;
+    }
+    
+
 }
 
 
 /* Section Nuestros Productos */
 
-#nuestros-productos {
-    display: none !important;
-    /* background-color:white
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 3em 0em;; */
-}
+
 
 /*
 
