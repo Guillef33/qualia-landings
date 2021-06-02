@@ -174,7 +174,7 @@
     /* Footer */
 
     #footer {
-        padding:1em 0.5em !important;
+        padding:2em 2em !important;
         grid-template-columns: 1fr;
 
     }
@@ -235,6 +235,10 @@
     }
     .app-image-wrapper img{ 
         margin:15px 0px 10px 0px;
+    }
+
+    .qualia-black-quienes-somos {
+        height: auto !important;
     }
 
     /* Seguros */
@@ -340,20 +344,22 @@
     /* Footer */
 
     .footer-columnas-title {
-    margin-bottom: 5px !important;
+    margin-bottom: 30px !important;
     }
     #footer p{
-        font-size: 14px;
-        line-height: 17px;
+        font-size: 18px;
+        line-height: 33px;
+        color:#5F5F5F ;
     }
     #footer{
-        text-align: center;
+        text-align: left;
     }
     .footer-wrapper{
         padding-right: initial !important;
+        margin-bottom: 30px;
     }
     .footer-columnas{
-        padding: 4px 5px;
+        padding: 4px 5px 20px 0px;
     }
 
     #nuestros-productos {

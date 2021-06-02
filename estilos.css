@@ -573,7 +573,7 @@ ul li a {
 
 .app-title {
     line-height: 1.1;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 0.5em;
 }
 
@@ -757,9 +757,9 @@ border-radius: 10px;
 
 .blog-banner-title {
     line-height: 1.1;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 0.5em;
-    color:#4F4F4F;
+    color:#5F5F5F;
     padding-right: 120px;
 }
 
