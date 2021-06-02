@@ -119,7 +119,7 @@
 
                 <div class="tipos-seguro-card qualia-grey seguros-grid">
                     <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                        <img src="../img/seguros-accidentes-icon.png" alt="">
                     </div>
                     <div>
                         <h4 class="tipos-seguro-headline-seguro">Accidentes personales</h4>
@@ -132,7 +132,7 @@
             <div class=tipos-seguro-wrapper-consideration">
                 <div class="tipos-seguro-card qualia-grey seguros-grid">
                     <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                        <img src="../img/seguro-bici-icon.png" alt="">
                     </div>
                     <div>
                         <h4  class="tipos-seguro-headline-seguro">Bicicleta</h4>
@@ -142,7 +142,7 @@
 
                 <div class="tipos-seguro-card qualia-grey seguros-grid">
                     <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                        <img src="../img/seguro-bolso-icon.png" alt=""">
                     </div>
                     <div>
                         <h4 class="tipos-seguro-headline-seguro">Robo de bolso</h4>
@@ -152,7 +152,7 @@
 
                 <div class="tipos-seguro-card qualia-grey seguros-grid">
                     <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                        <img src="../img/seguro-cajero-icon.png" alt="">
                     </div>
                     <div>
                         <h4 class="tipos-seguro-headline-seguro">Robo de cajero</h4>
@@ -162,7 +162,7 @@
 
                 <div class="tipos-seguro-card qualia-grey seguros-grid">
                     <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="">
+                        <img src="../img/seguro-tecno-icon.png" alt="">
                     </div>
                     <div>
                         <h4 class="tipos-seguro-headline-seguro">Notebook</h4>

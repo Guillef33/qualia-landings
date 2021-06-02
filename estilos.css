@@ -374,6 +374,13 @@ ul li a {
 .tipos-seguro-card:hover img{
     content: url("./img/Iconos_hogar_color.png");
 }
+/*
+.tipos-seguro-card:hover img {
+    content: url("./img/seguro-salud-icon.png") !important;
+}
+*/
+
+
 .tipos-seguro-card:hover p{
     display: block !important;
 }
