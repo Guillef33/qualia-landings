@@ -374,19 +374,19 @@ ul li a {
 }
 
 .iconos-filter {
-    grayscale(100%);
+    filter:grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
 }
-/*
+
 .iconos-filter:hover {
-    grayscale(0%);
+    filter:grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%)    
 }
-*/
 
-.tipos-seguro-card:hover .iconos-filter:hover {
+
+.tipos-seguro-card:hover .iconos-filter {
     filter:grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%)

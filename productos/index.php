@@ -109,7 +109,7 @@
                 </div>
                 <div class="tipos-seguro-card qualia-grey seguros-grid">
                     <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/Iconos_hogar_gris.png" alt="" class="iconos-filter">
+                        <img src="../img/seguro-casa-icon-ok.png" alt="" class="iconos-filter">
                     </div>
                     <div>
                         <h4 class="tipos-seguro-headline-seguro">Hogar</h4>
