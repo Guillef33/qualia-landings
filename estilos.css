@@ -340,17 +340,6 @@ ul li a {
     transition: content;
 }
 
-.iconos-filter {
-    grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-}
-
-.iconos-filter:hover {
-    grayscale(0%);
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%)    
-}
 
 .tipos-seguro-wrapper-img-productos {
     text-align: left !important;
@@ -384,7 +373,20 @@ ul li a {
     box-shadow: rgba(17, 12, 46, 0.15) 3px 3px 12px;
 }
 
-.tipos-seguro-card:hover .iconos-filter {
+.iconos-filter {
+    grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+/*
+.iconos-filter:hover {
+    grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%)    
+}
+*/
+
+.tipos-seguro-card:hover .iconos-filter:hover {
     filter:grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%)
@@ -584,7 +586,7 @@ ul li a {
 
 .qualia-black-qr{
     background-color:#2E2E2E;
-    background-image: url('./img/mask-group-qr.png');
+    background-image: url('./img/mask-group-1.png');
     background-size: cover; 
     background-repeat: no-repeat;
 }

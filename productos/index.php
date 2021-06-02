@@ -72,7 +72,7 @@
         <div class="contenedor-qualia">
         <section id="nuestros-productos">
             <div class="nuestros-productos-title">
-                <h3 class="nuestros-productos-title">Nuestros <br> productos</h3>
+                <h3 class="nuestros-productos-title">Nuestros productos</h3>
             </div>
             <div class="nuestros-productos">
                 <div class="card-valores">
@@ -376,13 +376,13 @@
         <section id="app">
             <div class="app-wrapper">
                 <img src="../img/qualia-logo-white.png" alt="" class="app-logo-white">
-                <h3 class="app-title">Tenemos una app para que resuelvas <span class="span-text-cyan">todo </span> digitalmente</h3>
+                <h3 class="app-title">Tenemos una app para que resuelvas <span class="span-text-cyan">todo </span> </h3>
                 <p class="app-text">Un seguro de tu lado <img src="../img/qualia-mini-icon.png" style="height:22px;width:17px; margin-left: 5px;margin-right: 5px; margin-bottom: -5px;"> qualiaseguros.com</p> 
             </div>
             <div class="app-image-wrapper">
                 <img src="../img/qrcode.png" alt="" class="img-desktop">
-                <a href="/mi-cuenta" class="qualia-button-primary btn-mobile">Play Store</a>
-                <a href="/mi-cuenta" class="qualia-button-primary btn-mobile">App Store</a>
+                <a href="/mi-cuenta" class="qualia-button-primary btn-mobile"><i class="fab fa-google-play" style="margin-right: 1em;"></i>Play Store</a>
+                <a href="/mi-cuenta" class="qualia-button-primary btn-mobile"><i class="fab fa-app-store-ios" style="margin-right: 1em;"></i>App Store</a>
 
 
         <!--       <p class="app-caption">Facil, agil y simple</p> -->
