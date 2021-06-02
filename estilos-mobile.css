@@ -278,6 +278,21 @@
         height: auto;
     }
 
+    /* Blog Banner Title */
+
+    .blog-banner-title {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .contenedor-qualia-blog {
+        padding: 60px 0px 60px 0px;
+    }
+
+    .blog-section {
+        height: auto;
+    }
+
     /* Video YouTube */
 
     .video-youtube{
@@ -307,12 +322,18 @@
         text-align: center;
     }
 
-
     .valores-title{
         text-align: center;
     }
     .valores-wrapper{
         padding: 0px 30px;
+    }
+
+    /* Form */
+
+    .form-img-wrapper {
+        margin: auto;
+        padding-bottom: 30px;
     }
 
     /* Footer */
