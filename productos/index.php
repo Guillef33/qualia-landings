@@ -71,14 +71,18 @@
         <!-- Valores Section REPETIDA -->
         <div class="contenedor-qualia">
         <section id="nuestros-productos">
-            <div class="nuestros-productos-title">
+            <div>
                 <h3 class="nuestros-productos-title">Nuestros productos</h3>
+                <h3 class="nuestros-productos-title-mobile">Descubre nuestros productos</h3>
+
             </div>
-            <div class="nuestros-productos">
+           <!-- <div class="nuestros-productos">
                 <div class="card-valores">
-                        <p>Los productos aparecen en gris. Al hacer mouse hover, se ilumina el icono, el nombre se va arriba, se agrega la descripción del mismo y se hace clickeable</h4>
+                      <!--  <p>Los productos aparecen en gris. Al hacer mouse hover, se ilumina el icono, el nombre se va arriba, se agrega la descripción del mismo y se hace clickeable</h4> 
                 </div>
             </div>
+            -->
+
          </section>
          <section id="tipos-seguro-section">
          <!--   <div class="tipos-seguro-wrapper-title">
@@ -373,9 +377,14 @@
 
     <!-- CTA Section -->
     <div class="contenedor-qualia qualia-black-qr">
+                <div class="app-flex-wrapper">
+                    <img src="../img/qualia-mini-icon.png" class="app-qualia-mobile">
+                    <img src="../img/qualia-logo-white.png" alt="" class="app-logo-white">
+                </div>
         <section id="app">
+
             <div class="app-wrapper">
-                <img src="../img/qualia-logo-white.png" alt="" class="app-logo-white">
+
                 <h3 class="app-title">Tenemos una app para que resuelvas <span class="span-text-cyan">todo </span> </h3>
                 <p class="app-text">Un seguro de tu lado <img src="../img/qualia-mini-icon.png" style="height:22px;width:17px; margin-left: 5px;margin-right: 5px; margin-bottom: -5px;"> qualiaseguros.com</p> 
             </div>

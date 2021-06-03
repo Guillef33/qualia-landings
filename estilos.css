@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 0.2em 0em;
 }
 
@@ -67,6 +67,7 @@ a {
     color: white;
     font-weight: 300;
     border: none;
+    box-shadow: 0px 0px 14px #0096a9;
 }
 
 .btn-mobile {
@@ -362,6 +363,13 @@ ul li a {
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 10fr;
+    border-radius: 5px;
+    height: 120px;
+}
+
+
+.tipos-seguro-card:hover p{
+    display: block !important;
 }
 
 
@@ -406,9 +414,6 @@ ul li a {
 */
 
 
-.tipos-seguro-card:hover p{
-    display: block !important;
-}
 
 #tipos-seguro-section {
     padding: 0px 40px;
@@ -480,7 +485,6 @@ ul li a {
 
 .card-valores img {
     width: 100px; 
-    padding-right: 20px;
 }
 
 .card-valores-icono-wrapper {
@@ -517,7 +521,7 @@ ul li a {
 
 .background-image-seguros {
     position: absolute;
-    top:2820px;;
+    top: 2750px;;;
     z-index: 0;
     left: 394px;
 }
@@ -607,6 +611,7 @@ ul li a {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color:#B9B9B9;
+    padding-top: 5em;
 }
 
 .app-caption {
@@ -621,7 +626,11 @@ ul li a {
 }
  
 .app-logo-white {
-    width: 20% !important;
+    width: 80px !important;
+ }
+
+ .app-qualia-mobile {
+     display: none;
  }
 
 
@@ -649,7 +658,7 @@ ul li a {
     padding: 1em 1em;
     color: #5F5F5F;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
   /*  font-size: 50px; */
 
 }
@@ -785,7 +794,7 @@ border-radius: 10px;
     font-weight: 700;
     padding-bottom: 0.5em;
     color:#5F5F5F;
-    padding-right: 120px;
+    padding-right: 200px;
 }
 
 .blog-banner-text {
@@ -820,8 +829,8 @@ border-radius: 10px;
 #nuestros-productos {
     /* background-color:white; */
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 3em 0em;
+    grid-template-columns: 1fr;
+    padding: 3em 0em 0em 0em;
 }
 
 .nuestros-productos-wrapper-title {
@@ -837,5 +846,9 @@ border-radius: 10px;
 
 .nuestros-productos-title {
     color:#424242;
+    padding: 2em 0em;
 }
 
+.nuestros-productos-title-mobile{
+    display: none;
+}

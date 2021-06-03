@@ -316,7 +316,7 @@
     <div class="contenedor-qualia qualia-black-quienes-somos">
         <section id="app">
             <div class="app-wrapper">
-                <h3 class="app-title">Tenemos una app para que resuelvas <span class="text-cyan">todo </span> digitalmente</h3>
+                <h3 class="app-title">Tenemos una app para que resuelvas <span class="text-cyan">todo </span></h3>
         <!--      <p class="app-text"><strong>Mi Qualia</strong> te permite gestionar cualquier incidente en el momento y desde cualquier lugar</p>  --> 
             </div>
             <div class="app-image-wrapper">

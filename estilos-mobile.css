@@ -71,12 +71,11 @@
     }
     .card-valores {
         text-align: center !important;
-        padding: 4em !important;
         margin-bottom: 4em;
 
      }
     .card-valores img {
-        width: 60%;
+        width: 100px;
     }
 
     /* Seguros */
@@ -114,6 +113,10 @@
         grid-template-columns: 1fr;
         padding: 1em;
     }
+
+    #hitos .hitos-card-social {
+        margin: 20px 40px;
+    }
     /*
     #hitos .hitos-card-social {
         margin: auto;
@@ -123,8 +126,27 @@
 
     #app {
         grid-template-columns: 1fr;
-        padding: 0.1em;
+        padding: 4em 0em;
     }
+
+    .app-qualia-mobile {
+        display: block;
+        margin-right: 10px;
+        height:22px;
+        width:17px; 
+        margin-left: 5px;
+        margin-top: -2px;
+    }
+
+    .app-flex-wrapper {
+        display: flex;
+        padding: 20px;
+    }
+
+    .app-text {
+        display: none;
+    }
+
 
     .img-desktop {
         display: none;
@@ -132,7 +154,7 @@
 
     .btn-mobile {
         display: block;
-        width: 200px;
+        width: 250px;
         margin: 0 auto;
         margin-top: 30px;
     }
@@ -233,7 +255,7 @@
         padding: 0 1em 0 1em;
     }
     h3.app-title{
-        font-size:2.5em;
+        font-size:2em;
     }
     .app-image-wrapper img{ 
         margin:15px 0px 10px 0px;
@@ -255,7 +277,7 @@
     .hero-title-consideration  {
         text-align: left;
         padding: 20px;
-        font-size: 4em;
+        font-size: 3em;
         line-height: 1;
 
     }
@@ -309,7 +331,7 @@
     .blog-banner-title {
         text-align: center;
         padding-right: 0px;
-        padding: 1em;
+       /* padding: 1em; */
     }
 
     .contenedor-qualia-blog {
@@ -382,20 +404,36 @@
         margin-bottom: 30px;
     }
     .footer-columnas{
-        padding: 4px 5px 20px 0px;
+        padding: 10px 5px 20px 0px;
     }
 
     #nuestros-productos {
-        display: none !important;
+        /* display: none !important; 
         /* background-color:white
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 3em 0em;; */
     }
+
+    .nuestros-productos-title {
+
+        display: none;
+    }
+    
+    .nuestros-productos-title-mobile{
+        display: block !important;
+        color:#424242;
+        padding: 0em 0em 1em 0em;
+    text-align: center;
+        }
     
     .btn-mobile {
         display: block !important;
         box-shadow: 0px 0px 14px #0096a9;
+    }
+
+    #tipos-seguro-section {
+        padding: 0px 20px;
     }
 
     .tipos-seguro-card .iconos-filter {
@@ -404,6 +442,20 @@
         -moz-filter: grayscale(0%)    
     }
 
+
+    .tipos-seguro-card:hover{
+        display: none;
+    }
+       
+    
+    .tipos-seguro-card:hover p{
+        display: none;
+    }
+
+
+    .tipos-seguro-card:hover h4{
+        display: none;
+    }
     
     
 
