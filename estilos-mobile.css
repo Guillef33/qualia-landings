@@ -67,6 +67,7 @@
         width: 100%;
     }
     .valores-wrapper {
+        display: grid;
         grid-template-columns: 2fr !important;
     }
     .card-valores {
@@ -93,7 +94,7 @@
     }
 
     .seguros-pasos {
-        text-align: center;
+        text-align: left;
         padding-bottom: 1em;
     }
 
@@ -288,7 +289,7 @@
         display: block;
         width: 100%;
         height: 100%;
-        background-image: url('./img/menupasosmobile.svg');
+        background-image: url('./img/menu-pasos-mobile.svg');
         background-size: cover;
         height: 700px;
         background-repeat: no-repeat;
@@ -301,9 +302,9 @@
     }
     
     .seguros-title{
-        padding: 1rem 0rem 1.5rem 0rem;
-        font-size: 1.9em !important;
-        text-align: center !important;
+        padding: 1rem 0rem 1.5rem 2rem;
+        font-size: 2em !important;
+        text-align: left!important;
 
     }
 

@@ -288,15 +288,15 @@
                     <h3 class="seguros-title">Sacá tu seguro en 3 simples pasos</h3>
                 </div>
                 
-                <div class="seguros-pasos right">
+                <div class="seguros-pasos">
                     <h3 class="seguros-number">01</h3>
                     <p class="seguros-paragraph">Elegi <br>el seguro</p>
                 </div>
-                <div class="seguros-pasos left">
+                <div class="seguros-pasos">
                     <h3 class="seguros-number">02</h3>
                     <p class="seguros-paragraph">Completa <br>tus datos</p>   
                 </div>
-                <div class="seguros-pasos right">
+                <div class="seguros-pasos">
                     <h3 class="seguros-number">03</h3>
                     <p class="seguros-paragraph">Contrata <br>online</p>  
                 </div>
