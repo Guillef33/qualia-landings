@@ -349,30 +349,30 @@
         </div>
         <section id="blog">
             <div class="blog-card-social">
-                <img src="../img/image-sample.jpg" alt="" class="blog-image">
+                <img src="../img/blog/seguro-cajero.png" alt="" class="blog-image"> <!-- Agregado -->
                 <div class="blog-content-wrapper">
-                <h3 class="blog-title">Blog Title</h3>                
+                <h3 class="blog-title">Seguro Cajero</h3>       <!-- Agregado -->          
                 <p class="blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam minus, soluta aliquam fugiat maxime veniam eligendi eum.</p>
                 </div>
             </div>
             <div class="blog-card-social">
-                <img src="../img/image-sample.jpg" alt="" class="blog-image">
+                <img src="../img/blog/casa-seguro.png" alt="" class="blog-image"> <!-- Agregado -->
                 <div class="blog-content-wrapper">
-                <h3 class="blog-title">Blog Title</h3>
+                <h3 class="blog-title">Seguro Casa</h3> <!-- Agregado -->
                 <p class="blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam minus, soluta aliquam fugiat maxime veniam eligendi eum.</p>
                 </div>
             </div>
             <div class="blog-card-social">
-                <img src="../img/image-sample.jpg" alt="" class="blog-image">
+                <img src="../img/blog/bicicleta-seguro.png" alt="" class="blog-image"> <!-- Agregado -->
                 <div class="blog-content-wrapper">
-                <h3 class="blog-title">Blog Title</h3>
+                <h3 class="blog-title">Protege tu bicicleta</h3> <!-- Agregado -->
                 <p class="blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam minus, soluta aliquam fugiat maxime veniam eligendi eum.</p>
                 </div>
             </div>
             <div class="blog-card-social">
-                <img src="../img/image-sample.jpg" alt="" class="blog-image">
+                <img src="../img/blog/bolso-seguro.png" alt="" class="blog-image"> <!-- Agregado -->
                 <div class="blog-content-wrapper">
-                <h3 class="blog-title">Blog Title</h3>
+                <h3 class="blog-title">Protege tu bolso</h3> <!-- Agregado -->
                 <p class="blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam minus, soluta aliquam fugiat maxime veniam eligendi eum.</p>
                 </div>
             </div>
