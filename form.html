@@ -1,0 +1,36 @@
+   <!-- Form Section -->
+
+    <section id="form">
+        <div class="form-img-wrapper">
+            <img src="../img/image-sample.jpg" alt="" width="400px">
+        </div>
+        <div class="form-wrapper">
+            <form action="" class="formLanding">
+                <label for="">Nombre</label>
+                <input type="text" placeholder="Ingresa tu nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
+                <div class="validate"></div>
+                <label for="">Correo Electronico</label>
+                <input type="text" placeholder="tucorreo@tucorreo.com" data-rule="email" data-msg="Por favor ingrese un correo valido"/>
+                <div class="validate"></div>
+                <label for="">Seguro que queres consultar</label>
+                <select id="form-options-seguros" name="seguros">
+                    <option value="hogar">Hogar</option>
+                    <option value="bicicleta">Bicicleta</option>
+                    <option value="tecno-portable">Tecno Portable</option>
+                    <option value="confianza">Confianza</option>
+                    <option value="cercania">Cercania</option>
+                    <option value="agilidad">Agilidad</option>
+                    <option value="simplicidad">Simplicidad</option>
+                    <option value="confianza">Confianza</option>
+                </select>
+
+                <label for="">Tu consulta</label>
+                <textarea rows="8" cols="50" ata-rule="required" data-msg="Por favor no deje este campo vacío"> </textarea>
+                <div class="form-wrapper-button">
+                    <input type="submit" value="Enviar Consulta" class="qualia-button-primary-form">
+                </div>
+
+            </form>
+        </div>
+    </section>
+</div>

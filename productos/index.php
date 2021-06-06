@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"">
     <title>Nuestros Productos</title>
-    <!-- <link rel="stylesheet" href="estilos.css"> -->
-    <!--  <link rel="stylesheet" href="media.css">  -->
     <link rel="stylesheet" href="../estilos.css">
-
     <link rel="stylesheet" href="../estilos-mobile.css">
-
+    <meta name="description" content="Qualia seguros Argentina ofrece seguros de hogar, robo, cajeros, salud, accidentes personales y vida en bancaseguros, miembro del grupo petersen.">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">  
+ 
     <script src="../banner.js" defer></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:title" content="Qualia Seguros. Nuestros Productos" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Qualia Seguros">
+    <meta property="og:url" content="https://contrata-stg.qualia.shakeagain.net/landing/productos/" />
+    <meta property="og:image" content="https://contrata-stg.qualia.shakeagain.net/landing/img/qualia-logo.png" />
+
+    <link rel="shortcut icon" type="image/ico" href="../img/favicon.ico"/>
+
 
 </head>
 <body> 
@@ -90,89 +95,104 @@
             </div>
 -->
             <div class="tipos-seguro-wrapper-consideration">
-                <div class="tipos-seguro-card qualia-grey seguros-grid">
-                <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/seguro-salud-icon.png" alt="" class="iconos-filter">
+                <a href="https://contrata.qualiaseguros.com/seguro-salud/">
+                    <div class="tipos-seguro-card qualia-grey seguros-grid">
+                        <div class="tipos-seguro-wrapper-img-productos">
+                            <img src="../img/iconos/color/Icono_salud_04.svg" alt="" class="iconos-filter img-seguros-productos">
+                        </div>
+                        <div>
+                            <h4  class="tipos-seguro-headline-seguro">Salud</h4>
+                            <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
+                        </div>
                     </div>
-                    <div>
-                        <h4  class="tipos-seguro-headline-seguro">Salud</h4>
-                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
-                    </div>
+                </a>
 
+                <a href="https://contrata.qualiaseguros.com/seguro-de-vida/">
+                    <div class="tipos-seguro-card qualia-grey seguros-grid">
+                        <div class="tipos-seguro-wrapper-img-productos">
+                            <img src="../img/iconos/color/Icono_vida_04.svg" alt="" class="iconos-filter img-seguros-productos">
+                        </div>
+                        <div>
+                            <h4 class="tipos-seguro-headline-seguro">Vida</h4>
+                            <p class="tipos-seguro-text-seguro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in auctor est. In nec dolor nisl. Proin eget odio velit.</p>
+                        </div>
+                    </div>
+                </a>
 
-                </div>
-                <div class="tipos-seguro-card qualia-grey seguros-grid">
-                <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/seguro-vida-icon.png" alt="" class="iconos-filter">
+                <a href="https://contrata.qualiaseguros.com/seguro-hogar/">
+                    <div class="tipos-seguro-card qualia-grey seguros-grid">
+                        <div class="tipos-seguro-wrapper-img-productos">
+                            <img src="../img/iconos/color/Iconos_hogar_04.svg" alt="" class="iconos-filter img-seguros-productos">
+                        </div>
+                        <div>
+                            <h4 class="tipos-seguro-headline-seguro">Hogar</h4>
+                            <p class="tipos-seguro-text-seguro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in auctor est. In nec dolor nisl. Proin eget odio velit.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h4 class="tipos-seguro-headline-seguro">Vida</h4>
-                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
-                    </div>
+                </a>
 
-                </div>
-                <div class="tipos-seguro-card qualia-grey seguros-grid">
-                    <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/seguro-casa-icon-ok.png" alt="" class="iconos-filter">
+                <a href="https://contrata.qualiaseguros.com/accidentes-personales/">
+                    <div class="tipos-seguro-card qualia-grey seguros-grid">
+                        <div class="tipos-seguro-wrapper-img-productos">
+                            <img src="../img/iconos/color/Icono_accidentes_04.svg" alt="" class="iconos-filter img-seguros-productos">
+                        </div>
+                        <div>
+                            <h4 class="tipos-seguro-headline-seguro">Accidentes personales</h4>
+                            <p class="tipos-seguro-text-seguro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in auctor est. In nec dolor nisl. Proin eget odio velit.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h4 class="tipos-seguro-headline-seguro">Hogar</h4>
-                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
-                    </div>
-                </div>
-
-                <div class="tipos-seguro-card qualia-grey seguros-grid">
-                    <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/seguros-accidentes-icon.png" alt="" class="iconos-filter">
-                    </div>
-                    <div>
-                        <h4 class="tipos-seguro-headline-seguro">Accidentes personales</h4>
-                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
-                    </div>
-                </div>
+                </a>
             </div>
 
 
             <div class=tipos-seguro-wrapper-consideration">
-                <div class="tipos-seguro-card qualia-grey seguros-grid">
-                    <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/seguro-bici-icon.png" alt="" class="iconos-filter">
+                <a href="https://contrata.qualiaseguros.com/seguro-robo-bicicleta/">
+                    <div class="tipos-seguro-card qualia-grey seguros-grid">
+                        <div class="tipos-seguro-wrapper-img-productos">
+                            <img src="../img/iconos/color/Icono_bici_04.svg" alt="" class="iconos-filter img-seguros-productos">
+                        </div>
+                        <div>
+                            <h4  class="tipos-seguro-headline-seguro">Bicicleta</h4>
+                            <p class="tipos-seguro-text-seguro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in auctor est. In nec dolor nisl. Proin eget odio velit.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h4  class="tipos-seguro-headline-seguro">Bicicleta</h4>
-                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
-                    </div>
-                </div>
+                </a>
 
-                <div class="tipos-seguro-card qualia-grey seguros-grid">
-                    <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/seguro-bolso-icon.png" alt="" class="iconos-filter">
+                <a href="https://contrata.qualiaseguros.com/seguro-robo-bolso/">
+                    <div class="tipos-seguro-card qualia-grey seguros-grid">
+                        <div class="tipos-seguro-wrapper-img-productos">
+                            <img src="../img/iconos/color/Icono_bolso_04.svg" alt="" class="iconos-filter img-seguros-productos">
+                        </div>
+                        <div>
+                            <h4 class="tipos-seguro-headline-seguro">Robo de bolso</h4>
+                            <p class="tipos-seguro-text-seguro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in auctor est. In nec dolor nisl. Proin eget odio velit.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h4 class="tipos-seguro-headline-seguro">Robo de bolso</h4>
-                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
-                    </div>
-                </div>
+                </a>
 
-                <div class="tipos-seguro-card qualia-grey seguros-grid">
-                    <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/seguro-cajero-icon.png" alt="" class="iconos-filter">
+                <a href="https://contrata.qualiaseguros.com/seguro-cajeros/">        
+                    <div class="tipos-seguro-card qualia-grey seguros-grid">
+                        <div class="tipos-seguro-wrapper-img-productos">
+                            <img src="../img/iconos/color/Icono_cajero_04.svg" alt="" class="iconos-filter img-seguros-productos">
+                        </div>
+                        <div>
+                            <h4 class="tipos-seguro-headline-seguro">Robo de cajero</h4>
+                            <p class="tipos-seguro-text-seguro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in auctor est. In nec dolor nisl. Proin eget odio velit.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h4 class="tipos-seguro-headline-seguro">Robo de cajero</h4>
-                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
-                    </div>
-                </div>
+                </a>
 
-                <div class="tipos-seguro-card qualia-grey seguros-grid">
-                    <div class="tipos-seguro-wrapper-img-productos">
-                        <img src="../img/seguro-tecno-icon.png" alt="" class="iconos-filter">
+                <a href="https://contrata.qualiaseguros.com/seguro-de-tecno-portable/">
+                    <div class="tipos-seguro-card qualia-grey seguros-grid">
+                        <div class="tipos-seguro-wrapper-img-productos">
+                            <img src="../img/iconos/color/Icono_tecno_04.svg" alt="" class="iconos-filter img-seguros-productos">
+                        </div>
+                        <div>
+                            <h4 class="tipos-seguro-headline-seguro">Notebook</h4>
+                            <p class="tipos-seguro-text-seguro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in auctor est. In nec dolor nisl. Proin eget odio velit.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h4 class="tipos-seguro-headline-seguro">Notebook</h4>
-                        <p class="tipos-seguro-text-seguro">Te otorga un monton de dinero en caso de sufrir ciertas enfermedades graves, transplantes o internacion por cirugia</p>
-                    </div>
-                </div>
+                </a>
             </div>
          </section>
 
@@ -181,223 +201,11 @@
 
          </div>
 
-<!--
-         <section id="nuestrosProductos">
-            <div class="nuestros-productos-cards">
-                <h3 class="nuestros-productos-title">Salud</h3>
-                <p>Te otorga un monto de dinero en caso de sufrir ciertas enfermedades graves, trasplantes o internación por cirugías.</h4>
-            </div>
-            <div class="nuestros-productos-cards">
-                <h3 class="nuestros-productos-title">Vida <br> productos</h3>
-                <p>Nuestro producto está pensado para protegerte, otorgándote verdadera seguridad ante cualquier contingencia amparada por la cobertura.</h4>
-            </div>
-            <div class="nuestros-productos-cards">
-                <h3 class="nuestros-productos-title">Accidentes personales</h3>
-                <p>Nuestro producto está pensado para protegerte, otorgándote verdadera seguridad ante cualquier contingencia amparada por la cobertura.</h4>
-            </div>
-            <div class="nuestros-productos-cards">
-                <h3 class="nuestros-productos-title">Accidentes personales senior</h3>
-                <p>Nuestro producto está pensado para protegerte, otorgándote verdadera seguridad ante cualquier contingencia amparada por la cobertura.</h4>
-            </div>
-         </section>
-        <!--
-         <section id="hitos">
-            <div class="hitos-card-social">
-                <h3 class="hitos-title">+350</h3>
-                <p class="valores-card-text">colabores para hacerte las cosas faciles</p>
-            </div>
-            <div class="hitos-card-social">
-                <h3 class="hitos-title">24/7</h3>
-                <p class="valores-card-text">Disponibles para vos para que puedas resolver todo de manera agil</p>
-            </div>
-            <div class="hitos-card-social">
-                <h3 class="hitos-title">8</h3>
-                <p class="valores-card-text">seguros pensados especialmente para cada necesidad</p>
-            </div>
-            
-        </section>
--->
-
-    <!-- End Valores Section -->
-
-   
-    <!-- Tipos de Seguro Section  TERMINAR -->
-    <div class="contenedor-qualia qualia-light">
- 
-    </div>
-
-    <!-- End Valores Section -->
-
-    <!-- Valores Section 
-    <div class="contenedor-qualia">
-        <section id="valores-section">
-            <div class="valores-wrapper-title">
-                <h3 class="valores-title">Nuestros <br> valores</h3>
-            </div>
-            <div>
-            <div class="valores-wrapper">
-                <div class="card-valores">
-                    <div>
-                        <img src="../../img/icono-agilidad.png" alt="">
-                    </div>
-                    <div>
-                        <h4  class="valores-card-title">Agilidad</h4>
-                    </div>
-                </div>
-                <div class="card-valores">
-                    <div>
-                        <img src="../../img/icono-agilidad.png" alt="">
-                    </div>
-                    <div>
-                        <h4 class="valores-card-title">Agilidad</h4>
-                    </div>
-                </div>
-                <div class="card-valores">
-                    <div>
-                        <img src="../../img/icono-simplicidad.png" alt="">
-                    </div>
-                    <div>
-                        <h4 class="valores-card-title">Simplicidad</h4>
-                    </div>
-                </div>
-                <div class="card-valores">
-                    <div>
-                        <img src="../../img/icono-confianza.png" alt="">
-                    </div>
-                    <div>
-                        <h4 class="valores-card-title">Confianza</h4>
-                    </div>
-                </div>
-            
-            </div>
-            <div class="valores-wrapper">    
-                <div class="card-valores">
-                    <div>
-                        <img src="../img/icono-cercania.png" alt="">
-                    </div>
-                    <div>
-                        <h4  class="valores-card-title">Cercania</h4>
-                    </div>
-                </div>
-                <div class="card-valores">
-                    <div>
-                        <img src="../img/icono-agilidad.png" alt="">
-                    </div>
-                    <div>
-                        <h4 class="valores-card-title">Agilidad</h4>
-                    </div>
-                </div>
-                <div class="card-valores">
-                    <div>
-                        <img src="../img/icono-simplicidad.png" alt="">
-                    </div>
-                    <div>
-                        <h4 class="valores-card-title">Simplicidad</h4>
-                    </div>
-                </div>
-                <div class="card-valores">
-                    <div>
-                        <img src="../img/icono-confianza.png" alt="">
-                    </div>
-                    <div>
-                        <h4 class="valores-card-title">Confianza</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-         </section>
-
-
-    </div> -->
-
-    <!-- End Valores Section -->
-
-
-
-
+  
     
-    <!-- START Hitos Proof 
-    <div class="contenedor-qualia">
-        <section id="hitos">
-            <div class="hitos-card-social">
-                <h3 class="hitos-title">+350</h3>
-                <p class="valores-card-text">Clientes confian en nosotros</p>
-            </div>
-            <div class="hitos-card-social">
-                <h3 class="hitos-title">8</h3>
-                <p class="valores-card-text">Productos distintos para asegurarte</p>
-            </div>
-            <div class="hitos-card-social">
-                <h3 class="hitos-title">Mas de 15 anos</h3>
-                <p class="valores-card-text">que trabajamos para hacerte la vida mas facil</p>
-            </div>
-            
-        </section>
-    </div>-->
-    <!-- END Hitos Proof -->
-
-    <!-- Elegi Tu SeguroSection
-    <div class="contenedor-qualia-absolute qualia-grey">
-        <section id="seguros">
-                <div>
-                    <h3 class="seguros-title">Sacá tu seguro en 3 simples pasos</h3>
-                </div>
-                <div class="seguros-pasos">
-                    <h3 class="seguros-number">01</h3>
-                    <p class="seguros-paragraph">Elegi <br>el seguro</p>
-                </div>
-                <div class="seguros-pasos">
-                    <h3 class="seguros-number">02</h3>
-                    <p class="seguros-paragraph">Completa <br>tus datos</p>   
-                </div>
-                <div class="seguros-pasos">
-                    <h3 class="seguros-number">03</h3>
-                    <p class="seguros-paragraph">Contrata <br>online</p>  
-                </div>
-            
-        <img src="../img/fondo-vector.png" alt="" class="background-image-seguros"> 
-        <img src="../img/pasos-mobile.jpg" alt="" class="seguros-background-mobile">
-           <div>
-                <h3>01</h3>
-                <p>Elegi tu seguro</p>
-            </div>
-            <div>
-                <h3>02</h3>
-                <p>Completa tus datos</p>        
-            </div>
-            <div>
-                <h3>03</h3>
-                <p>Contrata online</p>     
-            </div>
-        </section>
-     </div>    -->
-    <!-- END Elegi Tu SeguroSection -->
-
-
-    <!-- CTA Section -->
-    <div class="contenedor-qualia qualia-black-qr">
-                <div class="app-flex-wrapper">
-                    <img src="../img/qualia-mini-icon.png" class="app-qualia-mobile">
-                    <img src="../img/qualia-logo-white.png" alt="" class="app-logo-white">
-                </div>
-        <section id="app">
-
-            <div class="app-wrapper">
-
-                <h3 class="app-title">Tenemos una app para que resuelvas <span class="span-text-cyan">todo </span> </h3>
-                <p class="app-text">Un seguro de tu lado <img src="../img/qualia-mini-icon.png" style="height:22px;width:17px; margin-left: 5px;margin-right: 5px; margin-bottom: -5px;"> qualiaseguros.com</p> 
-            </div>
-            <div class="app-image-wrapper">
-                <img src="../img/qrcode.png" alt="" class="img-desktop">
-                <a href="/mi-cuenta" class="qualia-button-primary btn-mobile"><i class="fab fa-google-play" style="margin-right: 1em;"></i>Play Store</a>
-                <a href="/mi-cuenta" class="qualia-button-primary btn-mobile"><i class="fab fa-app-store-ios" style="margin-right: 1em;"></i>App Store</a>
-
-
-        <!--       <p class="app-caption">Facil, agil y simple</p> -->
-            </div>
-        </section>
-    </div>  
+    <!-- APP  -->
+    <?php include('../app.html'); ?>
+    <!-- #FIN APP -->
 
     <!-- Blog Section -->
 
@@ -405,7 +213,7 @@
         <section id="blog-banner">
             <div class="blog-banner-wrapper">
                 <h3 class="blog-banner-title">¿Querés conocer más sobre seguros?</h3>
-                <p class="blog-banner-text">Conoce todo en nuestro <strong>blog</strong></p> 
+                <p class="blog-banner-text">Conoce todo en nuestro <a href="#"><strong>blog</strong></a></p> 
                 <a href="/mi-cuenta" class="qualia-button-primary btn-mobile">Conoce nuestro blog</a>
             </div>
             <div>
@@ -415,70 +223,15 @@
         </section>
     </div>  
 
-    <!-- End Blog Section -->
-
-        <!-- Video Section -->
-    <!-- Revisar responsive
-
-    <div class="contenedor-qualia">
-        <section id="video-section">
-            <div class="video-wrapper-text">
-                <h3 class="video-title">Mira nuestra <br>campana publicitaria</span></h3>
-                  <div class="video-wrapper-button">
-                    <a href="/mi-cuenta" class="qualia-button-primary large">Mi Qualia</a>
-                </div> 
-            
-            <div class="iframe-wrapper">
-                <iframe width="100%" height="500" class="video-youtube" src="https://www.youtube.com/embed/6evEtKX3KiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-
-
-            </div>      
-        </section>
-    </div> -->
-    <!-- End Video Section -->
-
-    <!-- Form Section -->
     <div class="contenedor-qualia form-background">
-        <div>
-            <h3 class="blog-wrapper-title">Contactanos para obtener más <br> información sobre nuestros productos</h3>
-        </div>
-        <section id="form">
-            <div class="form-img-wrapper">
-                <img src="../img/blog-image.jpg" alt="">
-            </div>
-            <div class="form-wrapper">
-                <form action="" class="formLanding">
-                    <label for="">Nombre</label>
-                    <input type="text" placeholder="Ingresa tu nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
-                    <div class="validate"></div>
-                    <label for="">Correo Electronico</label>
-                    <input type="text" placeholder="tucorreo@tucorreo.com" data-rule="email" data-msg="Por favor ingrese un correo valido"/>
-                    <div class="validate"></div>
-                    <label for="">Seguro que queres consultar</label>
-                    <select id="form-options-seguros" name="seguros">
-                        <option value="">Seleccioná tu seguro</option>
-                        <option value="hogar">Hogar</option>
-                        <option value="bicicleta">Bicicleta</option>
-                        <option value="tecno-portable">Tecno Portable</option>
-                        <option value="confianza">Confianza</option>
-                        <option value="cercania">Cercania</option>
-                        <option value="agilidad">Agilidad</option>
-                        <option value="simplicidad">Simplicidad</option>
-                        <option value="confianza">Confianza</option>
-                    </select>
-
-                    <label for="">Tu consulta</label>
-                    <textarea rows="8" cols="50" ata-rule="required" data-msg="Por favor no deje este campo vacío"> </textarea>
-
-                    <div class="form-wrapper-button">
-                        <input type="submit" value="Enviar Consulta" class="qualia-button-primary-form">
-                    </div>
-
-                </form>
-            </div>
-        </section>
+    <div>
+        <h3 class="blog-wrapper-title">Contáctanos  para obtener mas información de nuestros productos</h3>
     </div>
+
+    
+    <!-- FORM  -->
+    <?php include('../form.html'); ?>
+    <!-- #FIN FORM -->
 
     <!-- FOOTER -->
             <?php include('../footer.html'); ?>

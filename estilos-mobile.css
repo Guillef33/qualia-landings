@@ -1,5 +1,17 @@
+/*
+@media (hover: none) {
+    .tipos-seguro-card:hover {
+        display: none;
+    }
+} */
+
 @media(max-width: 1024px) {
     
+
+    h3 {
+        font-size: 2em;
+    }
+
     /* Nav */
 
     .navGrid ul {
@@ -38,6 +50,10 @@
         padding:1em 1.5em !important;
     }
 
+    .iframe-wrapper {
+        text-align: center;
+    }
+
     /* Hero */
 
     .hero .hero-wrapper {
@@ -50,8 +66,9 @@
 
     }
     .hero-image-wrapper{
-        display: flex;
-        justify-content: center;
+        display: none;
+        /* display: flex;
+        justify-content: center; */
     }
     .hero-image-wrapper img{
         width:100%;
@@ -61,6 +78,7 @@
 
     #valores-section {
         padding: 0px 10px;
+        grid-template-columns: 1fr;
     }
     #valores-section h3 {
         font-size: 2em;
@@ -68,7 +86,12 @@
     }
     .valores-wrapper {
         display: grid;
-        grid-template-columns: 2fr !important;
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .valores-wrapper-title {
+        text-align: center;
+        padding: 40px 0px;
     }
     .card-valores {
         text-align: center !important;
@@ -76,7 +99,8 @@
 
      }
     .card-valores img {
-        width: 100px;
+        width: 100px !important;
+        transform: none;
     }
 
     /* Seguros */
@@ -96,16 +120,38 @@
     .seguros-pasos {
         text-align: left;
         padding-bottom: 1em;
+        display: flex;
+        align-items: center;
     }
 
     .seguros-number {
-        color: white;
+        color:white;
         padding-bottom: 1.5em;
+         border-radius: 50%;
+        padding: 1em;
+    }
+
+    .cyan-background {
+        background-color: #00C1C6;
+    }
+
+    .orange-background {
+        background-color: #FCAB50;
+    }
+
+    .red-background {
+        background-color: #F67359;
+    }
+
+    .tipos-seguro-headline-seguro {
+
+        color: #5F5F5F;
+
     }
 
 
     .background-image-seguros {
-        display: none;
+        display: none !important;
     }
 
     /* Hitos */
@@ -113,6 +159,7 @@
     #hitos {
         grid-template-columns: 1fr;
         padding: 1em;
+        grid-gap: 0px;
     }
 
     #hitos .hitos-card-social {
@@ -190,10 +237,9 @@
     #form {
         padding:1em 0.5em !important;
         grid-template-columns: 1fr;
-        padding: 1em 1em;
     }
     #form .formLanding {
-        width: 90%;
+        width: 70vw;
     }
 
     /* Footer */
@@ -220,7 +266,55 @@
     #nav-links-mobile ul li{
         padding: 2px 0px;
         text-align: center;
+
     }
+
+    #nav-links ul li {
+        margin-bottom: 10px;
+
+    }
+
+    ul li {
+         margin-right: 0px !important; 
+    }
+
+    .sub-menu-wrapper li {
+        font-family: 'Roboto', sans-serif;
+        color: #6C6D6F;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .sub-menu-wrapper .sub-menu-icon {
+        width: 10vw;
+    }
+
+    .nav-link  {
+        font-weight: 600 !important;
+        font-size: 16px !important;
+    }
+
+    nav.navGrid {
+        grid-template-columns: 1fr 2fr 1fr;
+        padding:  1rem;
+    }
+    nav.navGrid #nav-links{
+        display: none;
+        grid-row: 2;
+        grid-column:2;
+        margin-top: 30px;
+    }
+    nav.navGrid #nav-links ul{
+        display: block;
+        text-align: center
+    }
+
+    .valores-wrapper {
+        display: grid;
+        grid-template-columns: 2fr !important;
+    }
+
+
     .qualia-button-mobile{
         display: block;
     }
@@ -231,19 +325,7 @@
     .qualia-button-primary{
         display: none
     }
-    nav.navGrid {
-        grid-template-columns: 1fr 2fr 1fr;
-        padding:  1rem;
-    }
-    nav.navGrid #nav-links{
-        display: none;
-        grid-row: 2;
-        grid-column:2;
-    }
-    nav.navGrid #nav-links ul{
-        display: block;
-        text-align: center
-    }
+
     /* Tipos de Seguro */
 
     .tipos-seguro-wrapper {
@@ -256,7 +338,7 @@
         padding: 0 1em 0 1em;
     }
     h3.app-title{
-        font-size:2em;
+        font-size:2em !important;
     }
     .app-image-wrapper img{ 
         margin:15px 0px 10px 0px;
@@ -277,6 +359,7 @@
     .hero-textos-consideration {
         text-align: left;
         padding: 20px;
+        width: auto;
     }
 
     .hero-title-consideration  {
@@ -293,9 +376,9 @@
         display: block;
         width: 100%;
         height: 100%;
-        background-image: url('./img/menu-pasos-mobile.svg');
+        /* background-image: url('./img/menu-pasos-mobile.svg'); */
         background-size: cover;
-        height: 700px;
+        height: 500px;
         background-repeat: no-repeat;
         z-index: 10;
     }
@@ -306,14 +389,19 @@
     }
     
     .seguros-title{
-        padding: 1rem 0rem 1.5rem 2rem;
+        padding: 4rem 0rem 2rem 0rem;;
         font-size: 2em !important;
-        text-align: left!important;
-
+        text-align: center!important;
+        width: auto;
     }
 
     .seguros-pasos {
-        padding: 20px 80px;
+        padding: 10px 30px; 
+    }
+
+    .seguros-paragraph {
+        padding-left: 25px;
+        color: #585858;
     }
 
     
@@ -368,8 +456,9 @@
     }
 
     .valores-wrapper {
-        grid-template-columns: 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
         display: block;
+        padding: 0px;
     }
 
     .card-valores h4 {
@@ -379,9 +468,7 @@
     .valores-title{
         text-align: center;
     }
-    .valores-wrapper{
-        padding: 0px 30px;
-    }
+
 
     /* Form */
 
@@ -394,12 +481,14 @@
     /* Footer */
 
     .footer-columnas-title {
-    margin-bottom: 30px !important;
+    margin-bottom: 20px !important;
     }
+
     #footer p{
         font-size: 18px;
         line-height: 33px;
         color:#5F5F5F ;
+        font-family: 'Roboto', sans-serif;
     }
     #footer{
         text-align: left;
@@ -409,7 +498,7 @@
         margin-bottom: 30px;
     }
     .footer-columnas{
-        padding: 10px 5px 20px 0px;
+        padding: 20px 5px 0px 0px;
     }
 
     #nuestros-productos {
@@ -441,6 +530,10 @@
         padding: 0px 20px;
     }
 
+    .tipos-seguro-card {
+        height: auto !important;
+    }
+
     .tipos-seguro-card .iconos-filter {
         filter:grayscale(0%);
         -webkit-filter: grayscale(0%);
@@ -449,17 +542,17 @@
 
 
     .tipos-seguro-card:hover{
-        display: none;
+        display: none !important;
     }
        
     
     .tipos-seguro-card:hover p{
-        display: none;
+        display: none !important;
     }
 
 
     .tipos-seguro-card:hover h4{
-        display: none;
+        display: none !important;
     }
     
     

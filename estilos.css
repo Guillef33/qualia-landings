@@ -5,6 +5,70 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Moderat Font */
+
+@font-face {
+    font-family: 'Moderat Extended';
+    src: url('./fonts/Moderat-Extended-Bold.woff2') format('woff2'),
+        url('./fonts/Moderat-Extended-Bold.woff') format('woff'),
+        url('./fonts/Moderat-Extended-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat Extended';
+    src: url('./fonts/Moderat-Extended-Light.woff2') format('woff2'),
+        url('./fonts/Moderat-Extended-Light.woff') format('woff'),
+        url('./fonts/Moderat-Extended-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat Extended';
+    src: url('./fonts/Moderat-Extended-Black.woff2') format('woff2'),
+        url('./fonts/Moderat-Extended-Black.woff') format('woff'),
+        url('./fonts/Moderat-Extended-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat Extended';
+    src: url('./fonts/Moderat-Extended-Medium.woff2') format('woff2'),
+        url('./fonts/Moderat-Extended-Medium.woff') format('woff'),
+        url('./fonts/Moderat-Extended-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat Extended';
+    src: url('./fonts/Moderat-Extended-Regular.woff2') format('woff2'),
+        url('./fonts/Moderat-Extended-Regular.woff') format('woff'),
+        url('./fonts/Moderat-Extended-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat Extended';
+    src: url('./fonts/Moderat-Extended-Thin.woff2') format('woff2'),
+        url('./fonts/Moderat-Extended-Thin.woff') format('woff'),
+        url('./fonts/Moderat-Extended-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 /* Global Styles */
 
 /* Colors background */
@@ -44,12 +108,22 @@
 h2 {
     font-size: 4em;
     padding: 0.2em 0em;
+    font-family: 'Moderat Extended';
+    font-style: bold;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 2.5em;
     padding: 0.2em 0em;
+    font-family: 'Moderat Extended';
+    font-style: bold;
 }
+
+h4 {
+    font-family: 'Moderat Extended';
+    font-style: bold;
+}
+
 
 a {
     text-decoration: none;
@@ -113,7 +187,8 @@ nav.navGrid {
     font-family: 'Roboto', sans-serif;
     color: #6C6D6F;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 .nav-wrapper-button {
     display: flex;
@@ -136,6 +211,88 @@ ul li a {
     text-decoration: none;
 
 }
+
+.nav-link:first-child:hover {
+    background-color:#0096aa;
+    padding: 20px 0px;
+    color: white;
+
+} 
+
+.sub-menu-wrapper {
+    display: none;
+}
+
+
+.sub-menu-wrapper li {
+        font-family: 'Roboto', sans-serif;
+        color: #6C6D6F;
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 2px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px #dee2e6 solid;
+        white-space: nowrap;
+        padding: 10px;
+        margin-right: 0px;
+    }
+
+.sub-menu-wrapper li:hover {
+        background-color: #0096aa;
+        color: white;
+    }
+    
+
+ul li:hover .sub-menu-wrapper,
+ul li:focus .sub-menu-wrapper,
+.sub-menu-wrapper:focus .sub-menu-wrapper,
+.sub-menu-wrapper:hover .sub-menu-wrapper {
+    display: block;
+    position: absolute;
+    background-color:white;
+    padding-top: 15px;
+    /* padding-right:5px;
+    padding-left:5px; */
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+
+ul li:hover .sub-menu-wrapper ul,
+ul li:focus .sub-menu-wrapper ul,
+.sub-menu-wrapper:focus .sub-menu-wrapper,
+.sub-menu-wrapper:hover .sub-menu-wrapper {
+    display: block;
+    border: 1px solid #D3D3D3;
+
+    /* margin: 10px; */
+}
+
+ul li:hover .sub-menu-wrapper ul li,
+ul li:focus .sub-menu-wrapper ul li,
+.sub-menu-wrapper:focus .sub-menu-wrapper,
+.sub-menu-wrapper:hover .sub-menu-wrapper {
+    width: 150px;
+   /* padding: 10px; */
+    border-bottom: 1px solid #D3D3D3;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.sub-menu-wrapper .sub-menu-icon{
+    /*height: 4vh; */
+    width: 2vw; 
+    margin-bottom: -5px;
+    margin-right: 10px;
+    border: 1px solid #dee2e6;;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+
+
+}
+
 
 /* Alert */
 
@@ -185,7 +342,7 @@ ul li a {
 }
 .footer-logos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     align-items: center;
 }
 .circle-icon {
@@ -203,11 +360,36 @@ ul li a {
     color: gray;
     padding: 10px;
     line-height: 2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-columnas a {
+    text-decoration: none !important;
+    color: gray !important;
 }
 
 .footer-columnas-title {
-    margin-bottom: 60px;
+    margin-bottom: 52px;
+    font-family: 'Roboto', sans-serif;
 }
+
+.footer-columnas p {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+a:focus {
+        text-decoration: none;
+    color: #0096A9 !important; 
+}
+
+.footer-logos a {
+    color:black;
+}
+
+.footer-logos:visited {
+    color: #0096A9; 
+}
+
 
 /* Hero Quienes Somos */
 
@@ -232,7 +414,7 @@ ul li a {
 }
 
 .hero-wrapper-contenido {
-    padding: 20px 0px;
+    padding: 50px 0px;
 }
 
 .hero-textos-bold-wrapper {
@@ -326,6 +508,8 @@ ul li a {
     padding-left: 1rem;
     padding-bottom: 0.5rem;
     margin-bottom: 0;
+    font-family: 'Moderat Extended';
+
 }
 .tipos-seguro-card p{
     padding-left: 1rem;
@@ -353,12 +537,12 @@ ul li a {
     display: flex;
     justify-content: space-between;
     flex-direction: column; 
+    height: 150px;
 }
 
 .seguros-grid {
     text-align: center;
     align-items: center;
-    margin:10px;
     /*box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;*/
     padding: 1em;
     display: grid;
@@ -401,6 +585,8 @@ ul li a {
 }
 
 
+
+
 /*
 .tipos-seguro-card:hover img{
     content: url("./img/Iconos_hogar_color.png");
@@ -419,9 +605,19 @@ ul li a {
     padding: 0px 40px;
 }
 
-.tipos-seguro-card img {
-    /*padding-right: 20px;*/
+.img-seguros-quienes {
+    height: 70px !important;
 }
+/*
+.img-seguros-productos {
+    height: 50px !important;
+}
+*/
+/*
+.tipos-seguro-card img {
+    width: 100%;
+}*/
+
 
 /* Consideration */
 
@@ -447,25 +643,21 @@ ul li a {
 
 .valores-wrapper {
     display: flex;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
 }
 
-.card-valores {
-    text-align: center;
-    padding: 1em;
+.valores-card-text {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.valores-card-title {
+    padding-top: 0.3em;
 }
 
 /* Card Valores */
 
 .card-valores-icono-wrapper {
-    width: 100%;
-}
-
-.card-valores h4 {
-    text-align: left;
-    color: #707070;
-    font-size: 1.4em;
-    font-weight: 600;
+    width: 100px;
 }
 
 .card-valores p {
@@ -477,14 +669,16 @@ ul li a {
 
 .card-valores {
     text-align: center;
-    margin:20px;
+    /* padding-right: 3em; */
    /* display: flex; */
    /*  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
-    height: 100px;
+   /* height: 100px;
+    padding: 2em 2em; */
 }
 
+
 .card-valores img {
-    width: 100px; 
+    transform: scale(0.5);
 }
 
 .card-valores-icono-wrapper {
@@ -492,7 +686,7 @@ ul li a {
 }
 
 .card-valores h4 {
-    text-align: left;
+    text-align: center;
     color: #707070;
     font-size: 1.4em;
     font-weight: 600;
@@ -509,8 +703,9 @@ ul li a {
 /* Section Elegi Tu Seguro */
 
 #seguros {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    display: flex;
     text-align: center;
     /* background-image: url('img/fondo-vector.png');
     background-position: right 10px top 50%;
@@ -521,27 +716,31 @@ ul li a {
 
 .background-image-seguros {
     position: absolute;
-    top: 2750px;;;
+    top: 3070px;
     z-index: 0;
-    left: 394px;
+    left: 330px;
+    width: 67vw;
 }
 
 .seguros-pasos {
     z-index: 1;
     text-align: left;
     padding: 0px 40px;
+    margin-right: 40px;
 }
 
 .seguros-number {
     color: white;
     font-size: 1.2em;
     padding-bottom: 1em;
+
 }
 
 .seguros-paragraph {
     font-weight: 700;
     color: #333333;
     font-size: 1.6em;
+        width: 150px;
 }
 
 .seguros-title {
@@ -550,6 +749,7 @@ ul li a {
     font-size: 40px;
     line-height: 1;
     z-index: 2;
+    width: 240px;
 }
 
 .accentPrimary {
@@ -563,12 +763,12 @@ ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 4em 0em;
-    grid-gap:20px;
+    grid-gap:40px;
 }
 
 #hitos .hitos-card-social {
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    padding: 3rem 1.5rem;
+    padding: 3rem;
     text-align: center;
 }
 
@@ -604,6 +804,7 @@ ul li a {
     line-height: 1.1;
     font-weight: 700;
     padding-bottom: 0.5em;
+    font-size: 2.5em !important;
 }
 
 .app-text {
@@ -611,7 +812,7 @@ ul li a {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color:#B9B9B9;
-    padding-top: 5em;
+    padding-top: 2em;
 }
 
 .app-caption {
@@ -626,7 +827,7 @@ ul li a {
 }
  
 .app-logo-white {
-    width: 80px !important;
+   height: 25px; 
  }
 
  .app-qualia-mobile {
@@ -658,7 +859,6 @@ ul li a {
     padding: 1em 1em;
     color: #5F5F5F;
     font-weight: 700;
-    font-size: 2rem;
   /*  font-size: 50px; */
 
 }
@@ -714,6 +914,7 @@ ul li a {
 }
 #form-options-seguros,#form-options-seguros option{
     color: #7C7B7B !important;
+    background: white;
 
 }
 .formLanding label{
@@ -820,7 +1021,8 @@ border-radius: 10px;
     color: #F2F2F2;
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
-    font-weight: 400;
+    font-weight: 300;
+    width: 450px;
 } 
 
 
@@ -830,7 +1032,6 @@ border-radius: 10px;
     /* background-color:white; */
     display: grid;
     grid-template-columns: 1fr;
-    padding: 3em 0em 0em 0em;
 }
 
 .nuestros-productos-wrapper-title {
