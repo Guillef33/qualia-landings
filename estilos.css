@@ -552,7 +552,7 @@ a:focus {
     height: 120px;
 }
 
-
+ /*Borrado*/ /*
 .tipos-seguro-card:hover p{
     display: block !important;
 }
@@ -565,6 +565,7 @@ a:focus {
 .tipos-seguro-card:hover{
     box-shadow: rgba(17, 12, 46, 0.15) 3px 3px 12px;
 }
+*/
 
 .iconos-filter {
     filter:grayscale(100%);
@@ -717,7 +718,7 @@ a:focus {
 
 .background-image-seguros {
     position: absolute;
-    top: 3070px;
+   /* top: 3070px; */ /*borrado*/
     z-index: 0;
     left: 330px;
     width: 67vw;
