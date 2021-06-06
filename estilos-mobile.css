@@ -288,6 +288,7 @@
 
     .sub-menu-wrapper .sub-menu-icon {
         width: 10vw;
+        display: none; /*Agregadp*/
     }
 
     .nav-link  {
