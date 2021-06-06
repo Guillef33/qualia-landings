@@ -389,7 +389,7 @@
     <?php include('../form.html'); ?>
     <!-- #FIN FORM -->
 
-
+    </div>
     <!-- FOOTER  -->
         <?php include('../footer.html'); ?>
     <!-- #FIN FOOTER -->
