@@ -166,14 +166,15 @@ a {
 /* Nav */
 
 nav {
-    padding: 1.8em 4em;
+    padding: 0em 4em; /*Agregado */
     background-color: white;
 }
 
 nav.navGrid {
     display: grid;
     grid-template-columns: 2fr 7fr 2fr;
-    align-items: center;
+    align-items: center; /*Agregado */
+    height: 100px; /*Agregado */
 }
 #nav-toggler{
     display: none;
@@ -189,6 +190,7 @@ nav.navGrid {
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 1px;
+    padding: 40px 20px; /*Agregado */
 }
 .nav-wrapper-button {
     display: flex;
@@ -214,9 +216,7 @@ ul li a {
 
 .nav-link:first-child:hover {
     background-color:#0096aa;
-    padding: 20px 0px;
     color: white;
-
 } 
 
 .sub-menu-wrapper {

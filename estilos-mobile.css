@@ -144,8 +144,9 @@
     }
 
     .tipos-seguro-headline-seguro {
-
         color: #5F5F5F;
+        font-size: 1em; /*Agregado */
+
 
     }
 
@@ -297,6 +298,8 @@
     nav.navGrid {
         grid-template-columns: 1fr 2fr 1fr;
         padding:  1rem;
+        align-items: center; /*Agregado */
+        height: auto; /*Agregado */
     }
     nav.navGrid #nav-links{
         display: none;
