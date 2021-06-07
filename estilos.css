@@ -214,10 +214,7 @@ ul li a {
 
 }
 
-#nav-links ul li:first-child:hover a{
-    background-color:#0096aa;
-    color: white;
-} 
+
 
 .sub-menu-wrapper {
     display: none;
@@ -236,40 +233,50 @@ ul li a {
        /* margin-bottom: 10px; */ /*Borrado*/
         border-bottom: 1px #dee2e6 solid;
         white-space: nowrap;
-        padding: 10px;
+        
         top: 100%; /*Agregado*/
         margin-right: 0px;
-    }
+}
+
 
 .sub-menu-wrapper li:hover {
         background-color: #0096aa;
         color: white;
     }
     
+@media(min-width: 769px) {
 
-ul li:hover .sub-menu-wrapper,
-ul li:focus .sub-menu-wrapper,
-.sub-menu-wrapper:focus .sub-menu-wrapper,
-.sub-menu-wrapper:hover .sub-menu-wrapper {
-    display: block;
-    position: absolute;
-    background-color:white;
-    margin-top: 40px;
-    padding-top: 15px;
-    /* padding-right:5px;
-    padding-left:5px; */
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  
+    #nav-links ul li:first-child:hover a{
+        background-color:#0096aa;
+        color: white;
+    } 
 
-}
+    ul li:hover .sub-menu-wrapper,
+    ul li:focus .sub-menu-wrapper,
+    .sub-menu-wrapper:focus .sub-menu-wrapper,
+    .sub-menu-wrapper:hover .sub-menu-wrapper {
+        display: block;
+        position: absolute;
+        background-color:white;
+        margin-top: 40px;
+        padding-top: 15px;
+        /* padding-right:5px;
+        padding-left:5px; */
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 
-ul li:hover .sub-menu-wrapper ul,
-ul li:focus .sub-menu-wrapper ul,
-.sub-menu-wrapper:focus .sub-menu-wrapper,
-.sub-menu-wrapper:hover .sub-menu-wrapper {
-    display: block;
-    border: 1px solid #D3D3D3;
+    }
 
-    /* margin: 10px; */
+    ul li:hover .sub-menu-wrapper ul,
+    ul li:focus .sub-menu-wrapper ul,
+    .sub-menu-wrapper:focus .sub-menu-wrapper,
+    .sub-menu-wrapper:hover .sub-menu-wrapper {
+        display: block;
+        border: 1px solid #D3D3D3;
+
+        /* margin: 10px; */
+    }
+
 }
 
 ul li:hover .sub-menu-wrapper ul li,
@@ -293,9 +300,18 @@ ul li:focus .sub-menu-wrapper ul li,
     padding: 4px;
 }
 
-
-
+.sub-menu-wrapper li a {
+    background: transparent !important;
+    color: #6C6D6F !important;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
 }
+.sub-menu-wrapper li:hover a{
+    color: white !important;
+}
+
 
 
 /* Alert */

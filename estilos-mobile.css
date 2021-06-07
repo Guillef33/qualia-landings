@@ -275,6 +275,11 @@
 
     }
 
+    #nav-links > ul > li > a {
+        margin: 20px 0;
+        display: block;
+    }
+
     ul li {
          margin-right: 0px !important; 
     }
@@ -290,6 +295,7 @@
         width: 10vw;
         display: none; /*Agregadp*/
     }
+
 
     .nav-link  {
         font-weight: 600 !important;
@@ -310,7 +316,10 @@
     }
     nav.navGrid #nav-links ul{
         display: block;
-        text-align: center
+        /*text-align: center;*/
+    }
+    nav.navGrid #nav-links .nav-link{
+        padding: 0;
     }
 
     .valores-wrapper {
